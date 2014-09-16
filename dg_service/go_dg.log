@@ -1,3 +1,2842 @@
-2014/09/11 16:04:08 [I] Listening to:  [::]:54321 
-2014/09/11 18:12:29 [I] Listening to:  [::]:54321 
-2014/09/11 18:14:36 [I] Listening to:  [::]:54321 
+2014/09/12 10:54:35 [I] Connection from:  10.1.9.101:51560 
+2014/09/12 10:54:35 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[MESSAGE-ID:{2333ae24-f526-4ae8-b59f-699a59ad5fe1} EVENT:msg TO:sip:11@dg.uu.com DATE:1410490414 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:4 CSEQ:1 MESSAGE SOURCE:936201832302] df} 
+2014/09/12 10:54:35 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1024] Server:[nginx] Date:[Fri, 12 Sep 2014 02:52:47 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc0820f2040 -1 [chunked] false map[] 0xc082024410 <nil>} 
+2014/09/12 10:54:35 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 10:54:35 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:54:04 GMT]] 0xc0820f2300 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 10:54:35 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{2333ae24-f526-4ae8-b59f-699a59ad5fe1} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc010850004239 EVENT:msg DATE:1410490414 FROM:sip:11@dg.uu.com CALL-ID:4 CSEQ:1 MESSAGE CONTENT-LENGTH:2] df} 
+2014/09/12 10:54:35 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {2333ae24-f526-4ae8-b59f-699a59ad5fe1}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc010850004239
+EVENT: msg
+DATE: 1410490414
+FROM: sip:11@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+
+df 
+2014/09/12 10:54:35 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc010850004239
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:54:35 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{2333ae24-f526-4ae8-b59f-699a59ad5fe1} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575 CALL-ID:4 CSEQ:1 MESSAGE CONTENT-LENGTH:2 EVENT:msg DATE:1410490414 FROM:sip:11@dg.uu.com] df} 
+2014/09/12 10:54:35 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {2333ae24-f526-4ae8-b59f-699a59ad5fe1}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+SOURCE: 936201832302
+DATE: 1410490414
+FROM: sip:11@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+EVENT: msg
+
+df 
+2014/09/12 10:54:35 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:54:35 [I] web req is  {"dg_id":11,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{2333ae24-f526-4ae8-b59f-699a59ad5fe1}","content":"df","type":"msg","time":"1410490475"}]} 
+2014/09/12 10:54:35 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 02:52:47 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc0820f2500 -1 [chunked] false map[] 0xc082024dd0 <nil>} 
+2014/09/12 10:57:07 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 9 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{08f50e3f-fc4b-4942-9ebd-4ab22ffccf4f} EVENT:msg TO:sip:11@dg.uu.com DATE:1410490567 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:3] from cyc3} 
+2014/09/12 10:57:07 [I] Connection from:  10.1.9.101:51569 
+2014/09/12 10:57:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 02:55:20 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1024]] 0xc08200d640 -1 [chunked] false map[] 0xc0820244e0 <nil>} 
+2014/09/12 10:57:07 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:57:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:56:37 GMT]] 0xc08206a080 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 10:57:07 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{08f50e3f-fc4b-4942-9ebd-4ab22ffccf4f} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575 EVENT:msg CONTENT-LENGTH:9 DATE:1410490567 FROM:sip:11@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE] from cyc3} 
+2014/09/12 10:57:07 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {08f50e3f-fc4b-4942-9ebd-4ab22ffccf4f}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+DATE: 1410490567
+FROM: sip:11@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 9
+
+from cyc3 
+2014/09/12 10:57:07 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:57:07 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{08f50e3f-fc4b-4942-9ebd-4ab22ffccf4f} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 DATE:1410490567 FROM:sip:11@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:9] from cyc3} 
+2014/09/12 10:57:07 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {08f50e3f-fc4b-4942-9ebd-4ab22ffccf4f}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+DATE: 1410490567
+FROM: sip:11@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 9
+
+from cyc3 
+2014/09/12 10:57:07 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:57:07 [I] web req is  {"dg_id":11,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{08f50e3f-fc4b-4942-9ebd-4ab22ffccf4f}","content":"from cyc3","type":"msg","time":"1410490627"}]} 
+2014/09/12 10:57:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 02:55:20 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08206a380 -1 [chunked] false map[] 0xc0820fc270 <nil>} 
+2014/09/12 10:57:25 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 8 map[DATE:1410490585 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:4 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{ae8f65d8-9e7e-4c21-b913-65b2043d5cc4} EVENT:msg TO:sip:11@dg.uu.com] fdfdfdsf} 
+2014/09/12 10:57:25 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1024] Server:[nginx] Date:[Fri, 12 Sep 2014 02:55:38 GMT] Content-Type:[application/json]] 0xc0820ea080 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 10:57:25 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:57:25 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:56:55 GMT]] 0xc0820ea300 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 10:57:25 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:4 CSEQ:1 MESSAGE EVENT:msg DATE:1410490585 FROM:sip:11@dg.uu.com CONTENT-LENGTH:8 SOURCE:225126862702 MESSAGE-ID:{ae8f65d8-9e7e-4c21-b913-65b2043d5cc4} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575] fdfdfdsf} 
+2014/09/12 10:57:25 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410490585
+FROM: sip:11@dg.uu.com
+CONTENT-LENGTH: 8
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+EVENT: msg
+SOURCE: 225126862702
+MESSAGE-ID: {ae8f65d8-9e7e-4c21-b913-65b2043d5cc4}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+
+fdfdfdsf 
+2014/09/12 10:57:25 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:57:25 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:8 CALL-ID:4 CSEQ:1 MESSAGE EVENT:msg DATE:1410490585 FROM:sip:11@dg.uu.com SOURCE:225126862702 MESSAGE-ID:{ae8f65d8-9e7e-4c21-b913-65b2043d5cc4} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] fdfdfdsf} 
+2014/09/12 10:57:25 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 8
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490585
+FROM: sip:11@dg.uu.com
+SOURCE: 225126862702
+MESSAGE-ID: {ae8f65d8-9e7e-4c21-b913-65b2043d5cc4}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+fdfdfdsf 
+2014/09/12 10:57:25 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:57:25 [I] web req is  {"dg_id":11,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{ae8f65d8-9e7e-4c21-b913-65b2043d5cc4}","content":"fdfdfdsf","type":"msg","time":"1410490645"}]} 
+2014/09/12 10:57:25 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 02:55:38 GMT] Content-Type:[application/json]] 0xc0820d80c0 -1 [chunked] false map[] 0xc0820252b0 <nil>} 
+2014/09/12 10:58:20 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 9 map[SOURCE:225126862702 MESSAGE-ID:{9d345515-85b0-4d62-aecd-cb73007a7f8c} EVENT:msg TO:sip:11@dg.uu.com DATE:1410490639 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:5 CSEQ:1 MESSAGE] gergerger} 
+2014/09/12 10:58:20 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1024] Server:[nginx] Date:[Fri, 12 Sep 2014 02:56:33 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200d740 -1 [chunked] false map[] 0xc082025380 <nil>} 
+2014/09/12 10:58:20 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:58:20 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:57:49 GMT]] 0xc0820ea800 -1 [chunked] false map[] 0xc0820fc410 <nil>} 
+2014/09/12 10:58:20 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:9 CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg DATE:1410490639 FROM:sip:11@dg.uu.com SOURCE:225126862702 MESSAGE-ID:{9d345515-85b0-4d62-aecd-cb73007a7f8c} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575] gergerger} 
+2014/09/12 10:58:20 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410490639
+FROM: sip:11@dg.uu.com
+CONTENT-LENGTH: 9
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+SOURCE: 225126862702
+MESSAGE-ID: {9d345515-85b0-4d62-aecd-cb73007a7f8c}
+
+gergerger 
+2014/09/12 10:58:20 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:58:20 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg DATE:1410490639 FROM:sip:11@dg.uu.com CONTENT-LENGTH:9 SOURCE:225126862702 MESSAGE-ID:{9d345515-85b0-4d62-aecd-cb73007a7f8c} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] gergerger} 
+2014/09/12 10:58:20 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490639
+FROM: sip:11@dg.uu.com
+CONTENT-LENGTH: 9
+SOURCE: 225126862702
+MESSAGE-ID: {9d345515-85b0-4d62-aecd-cb73007a7f8c}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+gergerger 
+2014/09/12 10:58:20 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:58:20 [I] web req is  {"dg_id":11,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{9d345515-85b0-4d62-aecd-cb73007a7f8c}","content":"gergerger","type":"msg","time":"1410490700"}]} 
+2014/09/12 10:58:20 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 02:56:33 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc0820eaa00 -1 [chunked] false map[] 0xc082025520 <nil>} 
+2014/09/12 10:59:02 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 8 map[FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:6 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{2d132303-4f35-4277-bb2c-c20b66e718a6} EVENT:msg TO:sip:11@dg.uu.com DATE:1410490681] fefefefe} 
+2014/09/12 10:59:02 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:14 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200dac0 -1 [chunked] false map[] 0xc0820fc680 <nil>} 
+2014/09/12 10:59:02 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:59:02 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:58:31 GMT]] 0xc0820d8380 -1 [chunked] false map[] 0xc0820fc750 <nil>} 
+2014/09/12 10:59:02 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:6 CONTENT-LENGTH:8 CSEQ:1 MESSAGE EVENT:msg DATE:1410490681 FROM:sip:11@dg.uu.com SOURCE:225126862702 MESSAGE-ID:{2d132303-4f35-4277-bb2c-c20b66e718a6} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575] fefefefe} 
+2014/09/12 10:59:02 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490681
+FROM: sip:11@dg.uu.com
+CALL-ID: 6
+CONTENT-LENGTH: 8
+SOURCE: 225126862702
+MESSAGE-ID: {2d132303-4f35-4277-bb2c-c20b66e718a6}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+
+fefefefe 
+2014/09/12 10:59:02 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010849472575
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:59:02 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410490681 FROM:sip:11@dg.uu.com CALL-ID:6 CONTENT-LENGTH:8 SOURCE:225126862702 MESSAGE-ID:{2d132303-4f35-4277-bb2c-c20b66e718a6} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] fefefefe} 
+2014/09/12 10:59:02 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 6
+CONTENT-LENGTH: 8
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490681
+FROM: sip:11@dg.uu.com
+SOURCE: 225126862702
+MESSAGE-ID: {2d132303-4f35-4277-bb2c-c20b66e718a6}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+fefefefe 
+2014/09/12 10:59:02 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:59:02 [I] web req is  {"dg_id":11,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{2d132303-4f35-4277-bb2c-c20b66e718a6}","content":"fefefefe","type":"msg","time":"1410490742"}]} 
+2014/09/12 10:59:02 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:15 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200dd00 -1 [chunked] false map[] 0xc0821560d0 <nil>} 
+2014/09/12 10:59:42 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 8 map[TO:sip:11@dg.uu.com DATE:1410490721 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:8 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{2203ba51-a33d-461e-b4bf-556ea94431ae} EVENT:msg] fgrefger} 
+2014/09/12 10:59:42 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:54 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc0820d8080 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 10:59:42 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:59:42 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:59:11 GMT]] 0xc08200d640 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 10:59:42 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:8 CSEQ:1 MESSAGE EVENT:msg DATE:1410490721 FROM:sip:11@dg.uu.com CONTENT-LENGTH:8 SOURCE:225126862702 MESSAGE-ID:{2203ba51-a33d-461e-b4bf-556ea94431ae} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] fgrefger} 
+2014/09/12 10:59:42 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:11@dg.uu.com
+CONTENT-LENGTH: 8
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490721
+SOURCE: 225126862702
+MESSAGE-ID: {2203ba51-a33d-461e-b4bf-556ea94431ae}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+fgrefger 
+2014/09/12 10:59:42 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:59:42 [I] web req is  {"dg_id":11,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{2203ba51-a33d-461e-b4bf-556ea94431ae}","content":"fgrefger","type":"msg","time":"1410490782"}]} 
+2014/09/12 10:59:42 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:54 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc0820ea200 -1 [chunked] false map[] 0xc0820fc5b0 <nil>} 
+2014/09/12 10:59:44 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 7 map[FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:9 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{9d6e4b01-1f1f-4d8a-aedd-fcad5a1f8ae8} EVENT:msg TO:sip:11@dg.uu.com DATE:1410490724] grgrgrr} 
+2014/09/12 10:59:44 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:57 GMT]] 0xc0820ea280 -1 [chunked] false map[] 0xc0820fc680 <nil>} 
+2014/09/12 10:59:44 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:59:44 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 02:59:14 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc0820d8340 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 10:59:44 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410490724 FROM:sip:11@dg.uu.com CALL-ID:9 CONTENT-LENGTH:7 CSEQ:1 MESSAGE MESSAGE-ID:{9d6e4b01-1f1f-4d8a-aedd-fcad5a1f8ae8} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702] grgrgrr} 
+2014/09/12 10:59:44 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410490724
+FROM: sip:11@dg.uu.com
+CALL-ID: 9
+CONTENT-LENGTH: 7
+CSEQ: 1 MESSAGE
+EVENT: msg
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+SOURCE: 225126862702
+MESSAGE-ID: {9d6e4b01-1f1f-4d8a-aedd-fcad5a1f8ae8}
+
+grgrgrr 
+2014/09/12 10:59:44 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 9
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:59:44 [I] web req is  {"dg_id":11,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{9d6e4b01-1f1f-4d8a-aedd-fcad5a1f8ae8}","content":"grgrgrr","type":"msg","time":"1410490784"}]} 
+2014/09/12 10:59:44 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 02:57:57 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx]] 0xc0820d83c0 -1 [chunked] false map[] 0xc082025450 <nil>} 
+2014/09/12 10:59:46 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[EVENT:msg TO:sip:11@dg.uu.com DATE:1410490726 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010855372753;userid=225126862702;sessionid=95af29b3-95fc-476b-898f-82f0f7365987 CALL-ID:10 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{578b7abf-d836-4123-b441-d78988e3f4be}] 444} 
+2014/09/12 10:59:46 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:59 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc0820ea600 -1 [chunked] false map[] 0xc082156340 <nil>} 
+2014/09/12 10:59:46 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 10:59:46 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 02:59:16 GMT]] 0xc08200db00 -1 [chunked] false map[] 0xc0820255f0 <nil>} 
+2014/09/12 10:59:46 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 MESSAGE-ID:{578b7abf-d836-4123-b441-d78988e3f4be} CSEQ:1 MESSAGE EVENT:msg DATE:1410490726 CONTENT-LENGTH:3 FROM:sip:11@dg.uu.com CALL-ID:10] 444} 
+2014/09/12 10:59:46 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {578b7abf-d836-4123-b441-d78988e3f4be}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+EVENT: msg
+DATE: 1410490726
+CONTENT-LENGTH: 3
+FROM: sip:11@dg.uu.com
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+
+444 
+2014/09/12 10:59:46 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 10:59:46 [I] web req is  {"dg_id":11,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{578b7abf-d836-4123-b441-d78988e3f4be}","content":"444","type":"msg","time":"1410490786"}]} 
+2014/09/12 10:59:46 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 02:57:59 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc0820d8600 -1 [chunked] false map[] 0xc0820fcb60 <nil>} 
+2014/09/12 11:01:52 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 15 map[EVENT:msg TO:sip:11@dg.uu.com DATE:1410490852 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010859211513;userid=225126862702;sessionid=51b99271-c6bc-4cae-bff9-3cac6bab58db CALL-ID:3 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{8d9925e3-798b-4c4e-9c99-1b20e34faba8}] bbbbbbbbbbbbbbb} 
+2014/09/12 11:01:52 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:00:05 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc0820ea080 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:01:52 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:01:52 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:01:21 GMT]] 0xc0820d8200 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 11:01:52 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{8d9925e3-798b-4c4e-9c99-1b20e34faba8} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 FROM:sip:11@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg DATE:1410490852 CONTENT-LENGTH:15] bbbbbbbbbbbbbbb} 
+2014/09/12 11:01:52 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {8d9925e3-798b-4c4e-9c99-1b20e34faba8}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+FROM: sip:11@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490852
+CONTENT-LENGTH: 15
+
+bbbbbbbbbbbbbbb 
+2014/09/12 11:01:52 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:01:52 [I] web req is  {"dg_id":11,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{8d9925e3-798b-4c4e-9c99-1b20e34faba8}","content":"bbbbbbbbbbbbbbb","type":"msg","time":"1410490912"}]} 
+2014/09/12 11:01:52 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:00:05 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc0820ea2c0 -1 [chunked] false map[] 0xc0820fc820 <nil>} 
+2014/09/12 11:01:55 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[CALL-ID:4 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{147f815a-c7a0-4a51-be5b-1a92d832ea84} EVENT:msg TO:sip:11@dg.uu.com DATE:1410490855 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc010859211513;userid=225126862702;sessionid=51b99271-c6bc-4cae-bff9-3cac6bab58db] vrerve} 
+2014/09/12 11:01:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:00:08 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc0820ea340 -1 [chunked] false map[] 0xc0820fc8f0 <nil>} 
+2014/09/12 11:01:55 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:01:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:01:25 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08200d8c0 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:01:55 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410490855 FROM:sip:11@dg.uu.com CALL-ID:4 CONTENT-LENGTH:6 SOURCE:225126862702 MESSAGE-ID:{147f815a-c7a0-4a51-be5b-1a92d832ea84} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] vrerve} 
+2014/09/12 11:01:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:11@dg.uu.com
+CALL-ID: 4
+CONTENT-LENGTH: 6
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490855
+SOURCE: 225126862702
+MESSAGE-ID: {147f815a-c7a0-4a51-be5b-1a92d832ea84}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+vrerve 
+2014/09/12 11:01:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:11@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:01:55 [I] web req is  {"dg_id":11,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{147f815a-c7a0-4a51-be5b-1a92d832ea84}","content":"vrerve","type":"msg","time":"1410490915"}]} 
+2014/09/12 11:01:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:00:08 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc0820ea500 -1 [chunked] false map[] 0xc0820fcdd0 <nil>} 
+2014/09/12 11:04:01 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[SOURCE:936201832302 MESSAGE-ID:{f9a8bf5e-9848-4a02-ac9d-590d2c2b8dbe} EVENT:msg TO:sip:12@dg.uu.com DATE:1410490980 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:8 CSEQ:1 MESSAGE] fg} 
+2014/09/12 11:04:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:02:13 GMT] Content-Type:[application/json]] 0xc08200d740 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:04:01 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:04:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:03:30 GMT]] 0xc0820d80c0 -1 [chunked] false map[] 0xc0820fc410 <nil>} 
+2014/09/12 11:04:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc010859211513 SOURCE:936201832302 MESSAGE-ID:{f9a8bf5e-9848-4a02-ac9d-590d2c2b8dbe} CSEQ:1 MESSAGE EVENT:msg DATE:1410490980 CONTENT-LENGTH:2 FROM:sip:12@dg.uu.com CALL-ID:8] fg} 
+2014/09/12 11:04:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {f9a8bf5e-9848-4a02-ac9d-590d2c2b8dbe}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc010859211513
+EVENT: msg
+DATE: 1410490980
+CONTENT-LENGTH: 2
+FROM: sip:12@dg.uu.com
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+
+fg 
+2014/09/12 11:04:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc010859211513
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:04:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{f9a8bf5e-9848-4a02-ac9d-590d2c2b8dbe} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010801324880 SOURCE:936201832302 CALL-ID:8 CSEQ:1 MESSAGE EVENT:msg DATE:1410490980 CONTENT-LENGTH:2 FROM:sip:12@dg.uu.com] fg} 
+2014/09/12 11:04:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010801324880
+SOURCE: 936201832302
+MESSAGE-ID: {f9a8bf5e-9848-4a02-ac9d-590d2c2b8dbe}
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410490980
+CONTENT-LENGTH: 2
+FROM: sip:12@dg.uu.com
+CALL-ID: 8
+
+fg 
+2014/09/12 11:04:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010801324880
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:04:01 [I] web req is  {"dg_id":12,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{f9a8bf5e-9848-4a02-ac9d-590d2c2b8dbe}","content":"fg","type":"msg","time":"1410491041"}]} 
+2014/09/12 11:04:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:02:14 GMT] Content-Type:[application/json]] 0xc0820d84c0 -1 [chunked] false map[] 0xc0820fcea0 <nil>} 
+2014/09/12 11:07:05 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 1 map[CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{efd8114f-4cb9-467a-a847-503fa3846796} EVENT:msg TO:sip:12@dg.uu.com DATE:1410491165 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:10] c} 
+2014/09/12 11:07:05 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:05:18 GMT] Content-Type:[application/json]] 0xc08200d6c0 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:07:05 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:07:05 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:06:35 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc0820ea240 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 11:07:05 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410491165 FROM:sip:12@dg.uu.com CALL-ID:10 CONTENT-LENGTH:1 SOURCE:936201832302 MESSAGE-ID:{efd8114f-4cb9-467a-a847-503fa3846796} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020205260048] c} 
+2014/09/12 11:07:05 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 10
+CONTENT-LENGTH: 1
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491165
+FROM: sip:12@dg.uu.com
+SOURCE: 936201832302
+MESSAGE-ID: {efd8114f-4cb9-467a-a847-503fa3846796}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020205260048
+
+c 
+2014/09/12 11:07:05 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020205260048
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:07:05 [I] web req is  {"dg_id":12,"online_users":[225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{efd8114f-4cb9-467a-a847-503fa3846796}","content":"c","type":"msg","time":"1410491225"}]} 
+2014/09/12 11:07:05 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:05:18 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200d940 -1 [chunked] false map[] 0xc0820fc680 <nil>} 
+2014/09/12 11:07:34 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{6fe0353a-e14b-4170-8114-84f408167da9} EVENT:msg TO:sip:12@dg.uu.com DATE:1410491194 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020206186393;userid=225126862702;sessionid=aabe4063-0fdc-47b0-ab3c-ab114d24658d CALL-ID:3] cccccc} 
+2014/09/12 11:07:34 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:05:47 GMT]] 0xc0820ea0c0 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 11:07:34 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:07:34 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:07:04 GMT]] 0xc08200d840 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:07:34 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410491194 FROM:sip:12@dg.uu.com CALL-ID:3 CONTENT-LENGTH:6 SOURCE:225126862702 MESSAGE-ID:{6fe0353a-e14b-4170-8114-84f408167da9} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] cccccc} 
+2014/09/12 11:07:34 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:12@dg.uu.com
+CALL-ID: 3
+CONTENT-LENGTH: 6
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491194
+SOURCE: 225126862702
+MESSAGE-ID: {6fe0353a-e14b-4170-8114-84f408167da9}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+cccccc 
+2014/09/12 11:07:34 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:07:34 [I] web req is  {"dg_id":12,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{6fe0353a-e14b-4170-8114-84f408167da9}","content":"cccccc","type":"msg","time":"1410491254"}]} 
+2014/09/12 11:07:34 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:05:47 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc0820d80c0 -1 [chunked] false map[] 0xc082025790 <nil>} 
+2014/09/12 11:08:36 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 9 map[CALL-ID:4 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{2078cbc6-72b3-4847-b0be-a0acd82cd2d7} EVENT:msg TO:sip:12@dg.uu.com DATE:1410491256 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020206186393;userid=225126862702;sessionid=aabe4063-0fdc-47b0-ab3c-ab114d24658d] grfgrgreg} 
+2014/09/12 11:08:36 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:06:49 GMT] Content-Type:[application/json]] 0xc0820ea340 -1 [chunked] false map[] 0xc082025860 <nil>} 
+2014/09/12 11:08:36 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:08:36 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:08:05 GMT]] 0xc0820ea540 -1 [chunked] false map[] 0xc0820fc410 <nil>} 
+2014/09/12 11:08:36 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{2078cbc6-72b3-4847-b0be-a0acd82cd2d7} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 CALL-ID:4 CSEQ:1 MESSAGE EVENT:msg DATE:1410491256 CONTENT-LENGTH:9 FROM:sip:12@dg.uu.com] grfgrgreg} 
+2014/09/12 11:08:36 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {2078cbc6-72b3-4847-b0be-a0acd82cd2d7}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CONTENT-LENGTH: 9
+FROM: sip:12@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491256
+
+grfgrgreg 
+2014/09/12 11:08:36 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:08:36 [I] web req is  {"dg_id":12,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{2078cbc6-72b3-4847-b0be-a0acd82cd2d7}","content":"grfgrgreg","type":"msg","time":"1410491316"}]} 
+2014/09/12 11:08:36 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:06:49 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200dc80 -1 [chunked] false map[] 0xc082156340 <nil>} 
+2014/09/12 11:08:49 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 5 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{0b50550e-08c4-4b78-b482-a519638ed74d} EVENT:msg TO:sip:12@dg.uu.com DATE:1410491269 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020206186393;userid=225126862702;sessionid=aabe4063-0fdc-47b0-ab3c-ab114d24658d CALL-ID:5] rrrrr} 
+2014/09/12 11:08:49 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:07:02 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc0820d84c0 -1 [chunked] false map[] 0xc082156410 <nil>} 
+2014/09/12 11:08:49 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:08:49 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:08:19 GMT]] 0xc0820ea640 -1 [chunked] false map[] 0xc0821564e0 <nil>} 
+2014/09/12 11:08:49 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410491269 FROM:sip:12@dg.uu.com CONTENT-LENGTH:5 CALL-ID:5 MESSAGE-ID:{0b50550e-08c4-4b78-b482-a519638ed74d} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702] rrrrr} 
+2014/09/12 11:08:49 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 5
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491269
+FROM: sip:12@dg.uu.com
+SOURCE: 225126862702
+MESSAGE-ID: {0b50550e-08c4-4b78-b482-a519638ed74d}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+rrrrr 
+2014/09/12 11:08:49 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:08:49 [I] web req is  {"dg_id":12,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{0b50550e-08c4-4b78-b482-a519638ed74d}","content":"rrrrr","type":"msg","time":"1410491329"}]} 
+2014/09/12 11:08:49 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:07:02 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc0820d8740 -1 [chunked] false map[] 0xc082025c70 <nil>} 
+2014/09/12 11:08:54 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 7 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{e022c074-d8b6-4e90-aec0-3d4989892406} EVENT:msg TO:sip:12@dg.uu.com DATE:1410491274 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020206186393;userid=225126862702;sessionid=aabe4063-0fdc-47b0-ab3c-ab114d24658d CALL-ID:6] grgrgrr} 
+2014/09/12 11:08:54 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:07:07 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc0820ea840 -1 [chunked] false map[] 0xc0821565b0 <nil>} 
+2014/09/12 11:08:54 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:08:54 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:08:24 GMT]] 0xc0820d8940 -1 [chunked] false map[] 0xc0820fd040 <nil>} 
+2014/09/12 11:08:54 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 MESSAGE-ID:{e022c074-d8b6-4e90-aec0-3d4989892406} CSEQ:1 MESSAGE EVENT:msg DATE:1410491274 CONTENT-LENGTH:7 FROM:sip:12@dg.uu.com CALL-ID:6] grgrgrr} 
+2014/09/12 11:08:54 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {e022c074-d8b6-4e90-aec0-3d4989892406}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+DATE: 1410491274
+CONTENT-LENGTH: 7
+FROM: sip:12@dg.uu.com
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+EVENT: msg
+
+grgrgrr 
+2014/09/12 11:08:54 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:12@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:08:54 [I] web req is  {"dg_id":12,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{e022c074-d8b6-4e90-aec0-3d4989892406}","content":"grgrgrr","type":"msg","time":"1410491334"}]} 
+2014/09/12 11:08:54 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:07:07 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200ddc0 -1 [chunked] false map[] 0xc0821568f0 <nil>} 
+2014/09/12 11:10:41 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 1 map[MESSAGE-ID:{a2186347-b184-4c3c-ab3a-c6a4947a1d83} EVENT:msg TO:sip:13@dg.uu.com DATE:1410491381 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:12 CSEQ:1 MESSAGE SOURCE:936201832302] f} 
+2014/09/12 11:10:41 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:08:54 GMT]] 0xc0820ea0c0 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 11:10:41 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:10:41 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:10:10 GMT]] 0xc08200d840 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:10:41 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410491381 FROM:sip:13@dg.uu.com CALL-ID:12 CONTENT-LENGTH:1 SOURCE:936201832302 MESSAGE-ID:{a2186347-b184-4c3c-ab3a-c6a4947a1d83} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020206186393] f} 
+2014/09/12 11:10:41 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491381
+FROM: sip:13@dg.uu.com
+CALL-ID: 12
+CONTENT-LENGTH: 1
+SOURCE: 936201832302
+MESSAGE-ID: {a2186347-b184-4c3c-ab3a-c6a4947a1d83}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020206186393
+
+f 
+2014/09/12 11:10:41 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020206186393
+CALL-ID: 12
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:10:41 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:1 CSEQ:1 MESSAGE EVENT:msg DATE:1410491381 FROM:sip:13@dg.uu.com CALL-ID:12 SOURCE:936201832302 MESSAGE-ID:{a2186347-b184-4c3c-ab3a-c6a4947a1d83} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815] f} 
+2014/09/12 11:10:41 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 1
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491381
+FROM: sip:13@dg.uu.com
+CALL-ID: 12
+SOURCE: 936201832302
+MESSAGE-ID: {a2186347-b184-4c3c-ab3a-c6a4947a1d83}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+
+f 
+2014/09/12 11:10:41 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 12
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:10:41 [I] web req is  {"dg_id":13,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{a2186347-b184-4c3c-ab3a-c6a4947a1d83}","content":"f","type":"msg","time":"1410491441"}]} 
+2014/09/12 11:10:41 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:08:54 GMT] Content-Type:[application/json]] 0xc0820ea400 -1 [chunked] false map[] 0xc0820255f0 <nil>} 
+2014/09/12 11:12:14 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[MESSAGE-ID:{77bcf6ab-df3c-4b10-9d3c-0e382643a5fe} EVENT:msg TO:sip:14@dg.uu.com DATE:1410491474 FROM:<sip:644091087021@uu.com>;epid=kingwonderpc010808591011;userid=644091087021;sessionid=27ccf0d9-d692-4383-8d6d-3df685fe531b CALL-ID:3 CSEQ:1 MESSAGE SOURCE:644091087021] asd} 
+2014/09/12 11:12:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1099] Server:[nginx] Date:[Fri, 12 Sep 2014 03:10:27 GMT]] 0xc08200d800 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 11:12:14 [I] web req is  [252249476013,644091087021,803600289646] 
+2014/09/12 11:12:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:11:44 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc0820ea180 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:12:14 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:252249476013@dg.uu.com>;epid=kingwonder1pc010810401113 SOURCE:644091087021 MESSAGE-ID:{77bcf6ab-df3c-4b10-9d3c-0e382643a5fe} DATE:1410491474 FROM:sip:14@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE CONTENT-LENGTH:3 EVENT:msg] asd} 
+2014/09/12 11:12:14 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 644091087021
+MESSAGE-ID: {77bcf6ab-df3c-4b10-9d3c-0e382643a5fe}
+TO: <sip:252249476013@dg.uu.com>;epid=kingwonder1pc010810401113
+FROM: sip:14@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+EVENT: msg
+DATE: 1410491474
+
+asd 
+2014/09/12 11:12:14 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:14@dg.uu.com
+TO: <sip:252249476013@dg.uu.com>;epid=kingwonder1pc010810401113
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:12:14 [I] web req is  {"dg_id":14,"online_users":[252249476013,644091087021],"messages":[{"sender_id":644091087021,"msg_id":"{77bcf6ab-df3c-4b10-9d3c-0e382643a5fe}","content":"asd","type":"msg","time":"1410491534"}]} 
+2014/09/12 11:12:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:10:27 GMT] Content-Type:[application/json]] 0xc08200db00 -1 [chunked] false map[] 0xc082156680 <nil>} 
+2014/09/12 11:12:27 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 9 map[TO:sip:13@dg.uu.com DATE:1410491487 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020210520921;userid=225126862702;sessionid=249ac8e4-0a64-4526-b022-d1036ed9cabb CALL-ID:3 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{55de510c-b07c-4400-8e1c-65bfa9fd0e1c} EVENT:msg] from cyc3} 
+2014/09/12 11:12:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:10:40 GMT] Content-Type:[application/json]] 0xc0820d80c0 -1 [chunked] false map[] 0xc082156750 <nil>} 
+2014/09/12 11:12:27 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:12:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:11:56 GMT]] 0xc0820ea4c0 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:12:27 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[FROM:sip:13@dg.uu.com CONTENT-LENGTH:9 CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg DATE:1410491487 SOURCE:225126862702 MESSAGE-ID:{55de510c-b07c-4400-8e1c-65bfa9fd0e1c} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815] from cyc3} 
+2014/09/12 11:12:27 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491487
+FROM: sip:13@dg.uu.com
+CONTENT-LENGTH: 9
+SOURCE: 225126862702
+MESSAGE-ID: {55de510c-b07c-4400-8e1c-65bfa9fd0e1c}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+
+from cyc3 
+2014/09/12 11:12:27 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:12:27 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410491487 FROM:sip:13@dg.uu.com CONTENT-LENGTH:9 CALL-ID:3 MESSAGE-ID:{55de510c-b07c-4400-8e1c-65bfa9fd0e1c} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702] from cyc3} 
+2014/09/12 11:12:27 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 9
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410491487
+FROM: sip:13@dg.uu.com
+SOURCE: 225126862702
+MESSAGE-ID: {55de510c-b07c-4400-8e1c-65bfa9fd0e1c}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+from cyc3 
+2014/09/12 11:12:27 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:12:27 [I] web req is  {"dg_id":13,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{55de510c-b07c-4400-8e1c-65bfa9fd0e1c}","content":"from cyc3","type":"msg","time":"1410491547"}]} 
+2014/09/12 11:12:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:10:40 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200dc80 -1 [chunked] false map[] 0xc0820fc8f0 <nil>} 
+2014/09/12 11:15:07 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[TO:sip:14@dg.uu.com DATE:1410491647 FROM:<sip:644091087021@uu.com>;epid=kingwonderpc010808591011;userid=644091087021;sessionid=27ccf0d9-d692-4383-8d6d-3df685fe531b CALL-ID:5 CSEQ:1 MESSAGE SOURCE:644091087021 MESSAGE-ID:{db222a5d-2ae4-4228-b65c-3a829d54444d} EVENT:msg] 123321} 
+2014/09/12 11:15:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1409] Server:[nginx] Date:[Fri, 12 Sep 2014 03:13:20 GMT] Content-Type:[application/json]] 0xc08200d640 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:15:07 [I] web req is  [252249476013,644091087021,803600289646,252748646317] 
+2014/09/12 11:15:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:14:37 GMT]] 0xc0820ea1c0 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:15:07 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:644091087021 MESSAGE-ID:{db222a5d-2ae4-4228-b65c-3a829d54444d} TO:<sip:252249476013@dg.uu.com>;epid=kingwonder1pc010810401113 DATE:1410491647 FROM:sip:14@dg.uu.com CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:6] 123321} 
+2014/09/12 11:15:07 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 644091087021
+MESSAGE-ID: {db222a5d-2ae4-4228-b65c-3a829d54444d}
+TO: <sip:252249476013@dg.uu.com>;epid=kingwonder1pc010810401113
+DATE: 1410491647
+FROM: sip:14@dg.uu.com
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 6
+
+123321 
+2014/09/12 11:15:07 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:14@dg.uu.com
+TO: <sip:252249476013@dg.uu.com>;epid=kingwonder1pc010810401113
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:15:07 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:644091087021 MESSAGE-ID:{db222a5d-2ae4-4228-b65c-3a829d54444d} TO:<sip:252748646317@dg.uu.com>;epid=kingwonder2pc010810510937 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:6 DATE:1410491647 FROM:sip:14@dg.uu.com CALL-ID:5] 123321} 
+2014/09/12 11:15:07 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {db222a5d-2ae4-4228-b65c-3a829d54444d}
+TO: <sip:252748646317@dg.uu.com>;epid=kingwonder2pc010810510937
+SOURCE: 644091087021
+FROM: sip:14@dg.uu.com
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 6
+DATE: 1410491647
+
+123321 
+2014/09/12 11:15:07 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:14@dg.uu.com
+TO: <sip:252748646317@dg.uu.com>;epid=kingwonder2pc010810510937
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:15:07 [I] web req is  {"dg_id":14,"online_users":[252249476013,252748646317,644091087021],"messages":[{"sender_id":644091087021,"msg_id":"{db222a5d-2ae4-4228-b65c-3a829d54444d}","content":"123321","type":"msg","time":"1410491707"}]} 
+2014/09/12 11:15:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:13:20 GMT] Content-Type:[application/json]] 0xc08200d980 -1 [chunked] false map[] 0xc0821564e0 <nil>} 
+2014/09/12 11:20:31 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 11 map[MESSAGE-ID:{ef8d5b96-4431-4b55-b3ba-9ab7cc893fd5} EVENT:msg TO:sip:13@dg.uu.com DATE:1410491970 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020210520921;userid=225126862702;sessionid=249ac8e4-0a64-4526-b022-d1036ed9cabb CALL-ID:8 CSEQ:1 MESSAGE SOURCE:225126862702] from cyc3 2} 
+2014/09/12 11:20:31 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:18:44 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200d640 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:20:31 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:20:31 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:20:00 GMT]] 0xc0820d8340 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:20:31 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410491970 FROM:sip:13@dg.uu.com CALL-ID:8 CSEQ:1 MESSAGE CONTENT-LENGTH:11 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815 SOURCE:225126862702 MESSAGE-ID:{ef8d5b96-4431-4b55-b3ba-9ab7cc893fd5}] from cyc3 2} 
+2014/09/12 11:20:31 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410491970
+FROM: sip:13@dg.uu.com
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 11
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+SOURCE: 225126862702
+MESSAGE-ID: {ef8d5b96-4431-4b55-b3ba-9ab7cc893fd5}
+
+from cyc3 2 
+2014/09/12 11:20:31 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:20:31 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:11 EVENT:msg DATE:1410491970 FROM:sip:13@dg.uu.com CALL-ID:8 CSEQ:1 MESSAGE TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 MESSAGE-ID:{ef8d5b96-4431-4b55-b3ba-9ab7cc893fd5}] from cyc3 2} 
+2014/09/12 11:20:31 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:13@dg.uu.com
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 11
+EVENT: msg
+DATE: 1410491970
+MESSAGE-ID: {ef8d5b96-4431-4b55-b3ba-9ab7cc893fd5}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+SOURCE: 225126862702
+
+from cyc3 2 
+2014/09/12 11:20:31 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 8
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:20:31 [I] web req is  {"dg_id":13,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{ef8d5b96-4431-4b55-b3ba-9ab7cc893fd5}","content":"from cyc3 2","type":"msg","time":"1410492031"}]} 
+2014/09/12 11:20:31 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:18:44 GMT] Content-Type:[application/json]] 0xc0820d86c0 -1 [chunked] false map[] 0xc0820fcf70 <nil>} 
+2014/09/12 11:21:51 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[CALL-ID:10 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{cf5c4ba4-ec61-40d9-82eb-5a61d15789c8} EVENT:msg TO:sip:13@dg.uu.com DATE:1410492051 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020210520921;userid=225126862702;sessionid=249ac8e4-0a64-4526-b022-d1036ed9cabb] 222222} 
+2014/09/12 11:21:51 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:20:04 GMT] Content-Type:[application/json]] 0xc0820d8300 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:21:51 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:21:51 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:21:20 GMT]] 0xc08200d6c0 -1 [chunked] false map[] 0xc0821561a0 <nil>} 
+2014/09/12 11:21:51 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410492051 FROM:sip:13@dg.uu.com CONTENT-LENGTH:6 CALL-ID:10 CSEQ:1 MESSAGE EVENT:msg SOURCE:225126862702 MESSAGE-ID:{cf5c4ba4-ec61-40d9-82eb-5a61d15789c8} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815] 222222} 
+2014/09/12 11:21:51 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410492051
+FROM: sip:13@dg.uu.com
+CONTENT-LENGTH: 6
+SOURCE: 225126862702
+MESSAGE-ID: {cf5c4ba4-ec61-40d9-82eb-5a61d15789c8}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+
+222222 
+2014/09/12 11:21:51 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:21:51 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:10 CSEQ:1 MESSAGE EVENT:msg DATE:1410492051 FROM:sip:13@dg.uu.com CONTENT-LENGTH:6 SOURCE:225126862702 MESSAGE-ID:{cf5c4ba4-ec61-40d9-82eb-5a61d15789c8} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799] 222222} 
+2014/09/12 11:21:51 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410492051
+FROM: sip:13@dg.uu.com
+CONTENT-LENGTH: 6
+SOURCE: 225126862702
+MESSAGE-ID: {cf5c4ba4-ec61-40d9-82eb-5a61d15789c8}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+222222 
+2014/09/12 11:21:51 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 10
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:21:51 [I] web req is  {"dg_id":13,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{cf5c4ba4-ec61-40d9-82eb-5a61d15789c8}","content":"222222","type":"msg","time":"1410492111"}]} 
+2014/09/12 11:21:51 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:20:04 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200dbc0 -1 [chunked] false map[] 0xc0820fc410 <nil>} 
+2014/09/12 11:23:49 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 5 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{8fbe7b4a-eecf-4048-bce5-680f0d8baa13} EVENT:msg TO:sip:13@dg.uu.com DATE:1410492169 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020210520921;userid=225126862702;sessionid=249ac8e4-0a64-4526-b022-d1036ed9cabb CALL-ID:11] ghggh} 
+2014/09/12 11:23:49 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:22:02 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028]] 0xc0820ea180 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:23:49 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:23:49 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:23:18 GMT]] 0xc0820d8380 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:23:49 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410492169 FROM:sip:13@dg.uu.com CALL-ID:11 CSEQ:1 MESSAGE CONTENT-LENGTH:5 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815 SOURCE:225126862702 MESSAGE-ID:{8fbe7b4a-eecf-4048-bce5-680f0d8baa13}] ghggh} 
+2014/09/12 11:23:49 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410492169
+FROM: sip:13@dg.uu.com
+CALL-ID: 11
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 5
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+SOURCE: 225126862702
+MESSAGE-ID: {8fbe7b4a-eecf-4048-bce5-680f0d8baa13}
+
+ghggh 
+2014/09/12 11:23:49 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 11
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:23:49 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:11 CSEQ:1 MESSAGE CONTENT-LENGTH:5 EVENT:msg DATE:1410492169 FROM:sip:13@dg.uu.com TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 MESSAGE-ID:{8fbe7b4a-eecf-4048-bce5-680f0d8baa13}] ghggh} 
+2014/09/12 11:23:49 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410492169
+FROM: sip:13@dg.uu.com
+CALL-ID: 11
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 5
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+SOURCE: 225126862702
+MESSAGE-ID: {8fbe7b4a-eecf-4048-bce5-680f0d8baa13}
+
+ghggh 
+2014/09/12 11:23:49 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 11
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:23:49 [I] web req is  {"dg_id":13,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{8fbe7b4a-eecf-4048-bce5-680f0d8baa13}","content":"ghggh","type":"msg","time":"1410492229"}]} 
+2014/09/12 11:23:49 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:22:02 GMT] Content-Type:[application/json]] 0xc08200d700 -1 [chunked] false map[] 0xc082156410 <nil>} 
+2014/09/12 11:27:01 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 11 map[SOURCE:225126862702 MESSAGE-ID:{d82140fa-235e-4955-850d-2e1a81730121} EVENT:msg TO:sip:13@dg.uu.com DATE:1410492361 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020210520921;userid=225126862702;sessionid=249ac8e4-0a64-4526-b022-d1036ed9cabb CALL-ID:14 CSEQ:1 MESSAGE] 44444444444} 
+2014/09/12 11:27:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:25:14 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc0820d8140 -1 [chunked] false map[] 0xc082156000 <nil>} 
+2014/09/12 11:27:01 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:27:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:26:31 GMT]] 0xc08200d8c0 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:27:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:11 DATE:1410492361 FROM:sip:13@dg.uu.com CALL-ID:14 CSEQ:1 MESSAGE EVENT:msg TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815 SOURCE:225126862702 MESSAGE-ID:{d82140fa-235e-4955-850d-2e1a81730121}] 44444444444} 
+2014/09/12 11:27:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 11
+DATE: 1410492361
+FROM: sip:13@dg.uu.com
+MESSAGE-ID: {d82140fa-235e-4955-850d-2e1a81730121}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+SOURCE: 225126862702
+
+44444444444 
+2014/09/12 11:27:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:27:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:11 DATE:1410492361 FROM:sip:13@dg.uu.com CALL-ID:14 CSEQ:1 MESSAGE EVENT:msg TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 MESSAGE-ID:{d82140fa-235e-4955-850d-2e1a81730121}] 44444444444} 
+2014/09/12 11:27:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 11
+DATE: 1410492361
+FROM: sip:13@dg.uu.com
+MESSAGE-ID: {d82140fa-235e-4955-850d-2e1a81730121}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+SOURCE: 225126862702
+
+44444444444 
+2014/09/12 11:27:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:27:01 [I] web req is  {"dg_id":13,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{d82140fa-235e-4955-850d-2e1a81730121}","content":"44444444444","type":"msg","time":"1410492421"}]} 
+2014/09/12 11:27:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:25:14 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200dcc0 -1 [chunked] false map[] 0xc0820249c0 <nil>} 
+2014/09/12 11:34:46 [I] Connection from:  10.1.9.101:51659 
+2014/09/12 11:35:39 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 5 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{721eb3c3-0134-4468-a1d6-0bcbecf119be} EVENT:msg TO:sip:13@dg.uu.com DATE:1410492879 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020210520921;userid=225126862702;sessionid=249ac8e4-0a64-4526-b022-d1036ed9cabb CALL-ID:17] ddddd} 
+2014/09/12 11:35:39 [I] Connection from:  10.1.9.101:51662 
+2014/09/12 11:35:39 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:33:52 GMT] Content-Type:[application/json]] 0xc0820d8340 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:35:39 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:35:39 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:35:09 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc0820d8640 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:35:39 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:17 CSEQ:1 MESSAGE EVENT:msg DATE:1410492879 FROM:sip:13@dg.uu.com CONTENT-LENGTH:5 SOURCE:225126862702 MESSAGE-ID:{721eb3c3-0134-4468-a1d6-0bcbecf119be} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815] ddddd} 
+2014/09/12 11:35:39 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:13@dg.uu.com
+CONTENT-LENGTH: 5
+CALL-ID: 17
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410492879
+SOURCE: 225126862702
+MESSAGE-ID: {721eb3c3-0134-4468-a1d6-0bcbecf119be}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+
+ddddd 
+2014/09/12 11:35:39 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 17
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:35:39 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410492879 FROM:sip:13@dg.uu.com CONTENT-LENGTH:5 CALL-ID:17 MESSAGE-ID:{721eb3c3-0134-4468-a1d6-0bcbecf119be} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702] ddddd} 
+2014/09/12 11:35:39 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 5
+CALL-ID: 17
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410492879
+FROM: sip:13@dg.uu.com
+SOURCE: 225126862702
+MESSAGE-ID: {721eb3c3-0134-4468-a1d6-0bcbecf119be}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+
+ddddd 
+2014/09/12 11:35:39 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:13@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 17
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:35:39 [I] web req is  {"dg_id":13,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{721eb3c3-0134-4468-a1d6-0bcbecf119be}","content":"ddddd","type":"msg","time":"1410492939"}]} 
+2014/09/12 11:35:39 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:33:52 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200d640 -1 [chunked] false map[] 0xc082025860 <nil>} 
+2014/09/12 11:39:37 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[SOURCE:936201832302 MESSAGE-ID:{91a3c737-b3db-4500-931f-2472ede6be12} EVENT:msg TO:sip:15@dg.uu.com DATE:1410493117 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:24 CSEQ:1 MESSAGE] gg} 
+2014/09/12 11:39:37 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:37:50 GMT] Content-Type:[application/json]] 0xc08200d640 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:39:37 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:39:37 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:39:07 GMT]] 0xc0820ea380 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:39:37 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410493117 FROM:sip:15@dg.uu.com CONTENT-LENGTH:2 CALL-ID:24 CSEQ:1 MESSAGE EVENT:msg SOURCE:936201832302 MESSAGE-ID:{91a3c737-b3db-4500-931f-2472ede6be12} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020238359911] gg} 
+2014/09/12 11:39:37 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410493117
+FROM: sip:15@dg.uu.com
+CONTENT-LENGTH: 2
+SOURCE: 936201832302
+MESSAGE-ID: {91a3c737-b3db-4500-931f-2472ede6be12}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020238359911
+
+gg 
+2014/09/12 11:39:37 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:15@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020238359911
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:39:37 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:2 CALL-ID:24 CSEQ:1 MESSAGE EVENT:msg DATE:1410493117 FROM:sip:15@dg.uu.com SOURCE:936201832302 MESSAGE-ID:{91a3c737-b3db-4500-931f-2472ede6be12} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815] gg} 
+2014/09/12 11:39:37 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 2
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410493117
+FROM: sip:15@dg.uu.com
+SOURCE: 936201832302
+MESSAGE-ID: {91a3c737-b3db-4500-931f-2472ede6be12}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+
+gg 
+2014/09/12 11:39:37 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:15@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:39:37 [I] web req is  {"dg_id":15,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{91a3c737-b3db-4500-931f-2472ede6be12}","content":"gg","type":"msg","time":"1410493177"}]} 
+2014/09/12 11:39:37 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:37:50 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200d980 -1 [chunked] false map[] 0xc0820fd1e0 <nil>} 
+2014/09/12 11:39:50 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 13 map[DATE:1410493130 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020238359911;userid=225126862702;sessionid=98af1460-93b5-4b57-b541-23e062d84da4 CALL-ID:3 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{29897fe2-29f2-4be0-b6f4-0fd63306268f} EVENT:msg TO:sip:15@dg.uu.com] 1111111111111} 
+2014/09/12 11:39:50 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:38:03 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08200dbc0 -1 [chunked] false map[] 0xc082025a00 <nil>} 
+2014/09/12 11:39:50 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:39:50 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:39:19 GMT] Server:[Microsoft-HTTPAPI/1.0]] 0xc0820d8400 -1 [chunked] false map[] 0xc082025ad0 <nil>} 
+2014/09/12 11:39:50 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{29897fe2-29f2-4be0-b6f4-0fd63306268f} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815 DATE:1410493130 CONTENT-LENGTH:13 FROM:sip:15@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg] 1111111111111} 
+2014/09/12 11:39:50 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {29897fe2-29f2-4be0-b6f4-0fd63306268f}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+FROM: sip:15@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410493130
+CONTENT-LENGTH: 13
+
+1111111111111 
+2014/09/12 11:39:50 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:15@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020208576815
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:39:50 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{29897fe2-29f2-4be0-b6f4-0fd63306268f} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 FROM:sip:15@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg DATE:1410493130 CONTENT-LENGTH:13] 1111111111111} 
+2014/09/12 11:39:50 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {29897fe2-29f2-4be0-b6f4-0fd63306268f}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+EVENT: msg
+DATE: 1410493130
+CONTENT-LENGTH: 13
+FROM: sip:15@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+1111111111111 
+2014/09/12 11:39:50 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:15@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:39:50 [I] web req is  {"dg_id":15,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{29897fe2-29f2-4be0-b6f4-0fd63306268f}","content":"1111111111111","type":"msg","time":"1410493190"}]} 
+2014/09/12 11:39:50 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:38:03 GMT]] 0xc08200dd80 -1 [chunked] false map[] 0xc0821561a0 <nil>} 
+2014/09/12 11:41:13 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[DATE:1410493212 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:25 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{a3995d42-e273-4486-81f1-3570bb9d4a04} EVENT:msg TO:sip:16@dg.uu.com] hg} 
+2014/09/12 11:41:13 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:39:25 GMT] Content-Type:[application/json]] 0xc0820d8900 -1 [chunked] false map[] 0xc082156750 <nil>} 
+2014/09/12 11:41:13 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 11:41:13 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:40:42 GMT]] 0xc08200de80 -1 [chunked] false map[] 0xc0821569c0 <nil>} 
+2014/09/12 11:41:13 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{a3995d42-e273-4486-81f1-3570bb9d4a04} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020238359911 DATE:1410493212 FROM:sip:16@dg.uu.com CALL-ID:25 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:2] hg} 
+2014/09/12 11:41:13 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {a3995d42-e273-4486-81f1-3570bb9d4a04}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020238359911
+SOURCE: 936201832302
+FROM: sip:16@dg.uu.com
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 2
+DATE: 1410493212
+
+hg 
+2014/09/12 11:41:13 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020238359911
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:41:13 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{a3995d42-e273-4486-81f1-3570bb9d4a04} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664 EVENT:msg CONTENT-LENGTH:2 DATE:1410493212 FROM:sip:16@dg.uu.com CALL-ID:25 CSEQ:1 MESSAGE] hg} 
+2014/09/12 11:41:13 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {a3995d42-e273-4486-81f1-3570bb9d4a04}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664
+DATE: 1410493212
+FROM: sip:16@dg.uu.com
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 2
+
+hg 
+2014/09/12 11:41:13 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:41:13 [I] web req is  {"dg_id":16,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{a3995d42-e273-4486-81f1-3570bb9d4a04}","content":"hg","type":"msg","time":"1410493273"}]} 
+2014/09/12 11:41:13 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:39:25 GMT] Content-Type:[application/json]] 0xc0820ea840 -1 [chunked] false map[] 0xc0821b2340 <nil>} 
+2014/09/12 11:42:46 [I] Closed connection: 10.1.9.101:51560 
+2014/09/12 11:42:54 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 10 map[DATE:1410493314 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020240493089;userid=225126862702;sessionid=52036940-312d-4031-a311-04a09b9a9912 CALL-ID:3 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{973ef6b8-35e1-4276-a3d7-e7753d1c18dd} EVENT:msg TO:sip:16@dg.uu.com] 1111111111} 
+2014/09/12 11:42:54 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:41:07 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028]] 0xc0820ea180 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:42:54 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:42:54 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:42:24 GMT]] 0xc0820d8380 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:42:54 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{973ef6b8-35e1-4276-a3d7-e7753d1c18dd} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664 SOURCE:225126862702 DATE:1410493314 FROM:sip:16@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE CONTENT-LENGTH:10 EVENT:msg] 1111111111} 
+2014/09/12 11:42:54 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664
+SOURCE: 225126862702
+MESSAGE-ID: {973ef6b8-35e1-4276-a3d7-e7753d1c18dd}
+FROM: sip:16@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 10
+EVENT: msg
+DATE: 1410493314
+
+1111111111 
+2014/09/12 11:42:54 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:42:54 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{973ef6b8-35e1-4276-a3d7-e7753d1c18dd} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 EVENT:msg DATE:1410493314 FROM:sip:16@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE CONTENT-LENGTH:10] 1111111111} 
+2014/09/12 11:42:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {973ef6b8-35e1-4276-a3d7-e7753d1c18dd}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+EVENT: msg
+DATE: 1410493314
+FROM: sip:16@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 10
+
+1111111111 
+2014/09/12 11:42:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:42:55 [I] web req is  {"dg_id":16,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{973ef6b8-35e1-4276-a3d7-e7753d1c18dd}","content":"1111111111","type":"msg","time":"1410493375"}]} 
+2014/09/12 11:42:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:41:07 GMT] Content-Type:[application/json]] 0xc0820ea440 -1 [chunked] false map[] 0xc082156750 <nil>} 
+2014/09/12 11:43:45 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[MESSAGE-ID:{6a234bdb-2f15-4a5c-ba8c-1f51eceaa9b2} EVENT:msg TO:sip:16@dg.uu.com DATE:1410493365 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020242390551;userid=225126862702;sessionid=e91133d9-6761-4c49-9d94-10d90f51551d CALL-ID:3 CSEQ:1 MESSAGE SOURCE:225126862702] rrr} 
+2014/09/12 11:43:45 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 03:41:58 GMT] Content-Type:[application/json]] 0xc08200d4c0 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:43:45 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:43:45 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:43:15 GMT]] 0xc0820ea380 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:43:45 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:3 DATE:1410493365 FROM:sip:16@dg.uu.com CALL-ID:3 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664 SOURCE:225126862702 MESSAGE-ID:{6a234bdb-2f15-4a5c-ba8c-1f51eceaa9b2}] rrr} 
+2014/09/12 11:43:45 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410493365
+FROM: sip:16@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664
+SOURCE: 225126862702
+MESSAGE-ID: {6a234bdb-2f15-4a5c-ba8c-1f51eceaa9b2}
+
+rrr 
+2014/09/12 11:43:45 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020240016664
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:43:45 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:3 DATE:1410493365 FROM:sip:16@dg.uu.com MESSAGE-ID:{6a234bdb-2f15-4a5c-ba8c-1f51eceaa9b2} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702] rrr} 
+2014/09/12 11:43:45 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+DATE: 1410493365
+FROM: sip:16@dg.uu.com
+CALL-ID: 3
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+SOURCE: 225126862702
+MESSAGE-ID: {6a234bdb-2f15-4a5c-ba8c-1f51eceaa9b2}
+
+rrr 
+2014/09/12 11:43:45 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:43:45 [I] web req is  {"dg_id":16,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{6a234bdb-2f15-4a5c-ba8c-1f51eceaa9b2}","content":"rrr","type":"msg","time":"1410493425"}]} 
+2014/09/12 11:43:45 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 03:41:58 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200d900 -1 [chunked] false map[] 0xc0820fd380 <nil>} 
+2014/09/12 11:46:46 [I] Closed connection: 10.1.9.101:51569 
+2014/09/12 11:48:55 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[SOURCE:225126862702 MESSAGE-ID:{48f35f0b-938e-4a44-84ce-375cd839ebaa} EVENT:msg TO:sip:16@dg.uu.com DATE:1410493675 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020242390551;userid=225126862702;sessionid=e91133d9-6761-4c49-9d94-10d90f51551d CALL-ID:5 CSEQ:1 MESSAGE] gggggg} 
+2014/09/12 11:48:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 03:47:08 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc0820d8340 -1 [chunked] false map[] 0xc0820fc1a0 <nil>} 
+2014/09/12 11:48:55 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 11:48:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 03:48:25 GMT]] 0xc08200c180 -1 [chunked] false map[] 0xc082024b60 <nil>} 
+2014/09/12 11:48:55 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{48f35f0b-938e-4a44-84ce-375cd839ebaa} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799 SOURCE:225126862702 DATE:1410493675 FROM:sip:16@dg.uu.com CALL-ID:5 CSEQ:1 MESSAGE CONTENT-LENGTH:6 EVENT:msg] gggggg} 
+2014/09/12 11:48:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {48f35f0b-938e-4a44-84ce-375cd839ebaa}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CONTENT-LENGTH: 6
+EVENT: msg
+DATE: 1410493675
+FROM: sip:16@dg.uu.com
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+gggggg 
+2014/09/12 11:48:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:16@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010849293799
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 11:48:55 [I] web req is  {"dg_id":16,"online_users":[936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{48f35f0b-938e-4a44-84ce-375cd839ebaa}","content":"gggggg","type":"msg","time":"1410493735"}]} 
+2014/09/12 11:48:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 03:47:08 GMT] Content-Type:[application/json]] 0xc0820ea400 -1 [chunked] false map[] 0xc082025d40 <nil>} 
+2014/09/12 12:05:42 [I] Listening to:  [::]:54321 
+2014/09/12 12:06:11 [I] Connection from:  10.1.9.101:51732 
+2014/09/12 12:06:13 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 1 map[CALL-ID:4 CSEQ:1 MESSAGE SOURCE:226954790766 MESSAGE-ID:{99c9f88d-48d6-46bc-a3ac-d7c513e9aae3} EVENT:msg TO:sip:3@dg.uu.com DATE:1410494713 FROM:<sip:226954790766@uu.com>;epid=ua0001pc020205037463;userid=226954790766;sessionid=bea307b6-3b4c-4d44-bb7f-fa0b4b2c9373] 2} 
+2014/09/12 12:06:13 [I] Connection from:  10.1.9.101:51733 
+2014/09/12 12:06:13 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[837] Server:[nginx] Date:[Fri, 12 Sep 2014 04:04:26 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200d740 -1 [chunked] false map[] 0xc082024c30 <nil>} 
+2014/09/12 12:06:13 [I] web req is  [226954790766,329822914391,384211568471] 
+2014/09/12 12:06:13 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 04:05:43 GMT] Server:[Microsoft-HTTPAPI/1.0]] 0xc08200d9c0 -1 [chunked] false map[] 0xc082024ea0 <nil>} 
+2014/09/12 12:06:13 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:226954790766 MESSAGE-ID:{99c9f88d-48d6-46bc-a3ac-d7c513e9aae3} TO:<sip:384211568471@dg.uu.com>;epid=ua0002pc020204550258 FROM:sip:3@dg.uu.com CALL-ID:4 CSEQ:1 MESSAGE EVENT:msg DATE:1410494713 CONTENT-LENGTH:1] 2} 
+2014/09/12 12:06:13 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 226954790766
+MESSAGE-ID: {99c9f88d-48d6-46bc-a3ac-d7c513e9aae3}
+TO: <sip:384211568471@dg.uu.com>;epid=ua0002pc020204550258
+FROM: sip:3@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410494713
+CONTENT-LENGTH: 1
+
+2 
+2014/09/12 12:06:13 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:3@dg.uu.com
+TO: <sip:384211568471@dg.uu.com>;epid=ua0002pc020204550258
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 12:06:13 [I] web req is  {"dg_id":3,"online_users":[384211568471,226954790766],"messages":[{"sender_id":226954790766,"msg_id":"{99c9f88d-48d6-46bc-a3ac-d7c513e9aae3}","content":"2","type":"msg","time":"1410494773"}]} 
+2014/09/12 12:06:13 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 04:04:26 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08206c2c0 -1 [chunked] false map[] 0xc0820256c0 <nil>} 
+2014/09/12 12:06:16 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 10 map[TO:sip:3@dg.uu.com DATE:1410494716 FROM:<sip:226954790766@uu.com>;epid=ua0001pc020205037463;userid=226954790766;sessionid=bea307b6-3b4c-4d44-bb7f-fa0b4b2c9373 CALL-ID:5 CSEQ:1 MESSAGE SOURCE:226954790766 MESSAGE-ID:{45e9551c-a45a-4e31-8187-6d34e3b2a527} EVENT:msg] 3333333333} 
+2014/09/12 12:06:16 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[837] Server:[nginx] Date:[Fri, 12 Sep 2014 04:04:29 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200dbc0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 12:06:16 [I] web req is  [226954790766,329822914391,384211568471] 
+2014/09/12 12:06:16 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 04:05:46 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08210e0c0 -1 [chunked] false map[] 0xc082025790 <nil>} 
+2014/09/12 12:06:16 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg DATE:1410494716 FROM:sip:3@dg.uu.com CONTENT-LENGTH:10 SOURCE:226954790766 MESSAGE-ID:{45e9551c-a45a-4e31-8187-6d34e3b2a527} TO:<sip:384211568471@dg.uu.com>;epid=ua0002pc020204550258] 3333333333} 
+2014/09/12 12:06:16 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410494716
+FROM: sip:3@dg.uu.com
+CONTENT-LENGTH: 10
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+SOURCE: 226954790766
+MESSAGE-ID: {45e9551c-a45a-4e31-8187-6d34e3b2a527}
+TO: <sip:384211568471@dg.uu.com>;epid=ua0002pc020204550258
+
+3333333333 
+2014/09/12 12:06:16 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:3@dg.uu.com
+TO: <sip:384211568471@dg.uu.com>;epid=ua0002pc020204550258
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 12:06:16 [I] web req is  {"dg_id":3,"online_users":[384211568471,226954790766],"messages":[{"sender_id":226954790766,"msg_id":"{45e9551c-a45a-4e31-8187-6d34e3b2a527}","content":"3333333333","type":"msg","time":"1410494776"}]} 
+2014/09/12 12:06:16 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 04:04:29 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200de00 -1 [chunked] false map[] 0xc0821084e0 <nil>} 
+2014/09/12 12:06:19 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 4 map[SOURCE:936201832302 MESSAGE-ID:{bf8a49ac-7681-4e6e-a032-37ce431788be} EVENT:msg TO:sip:17@dg.uu.com DATE:1410494719 FROM:<sip:936201832302@uu.com>;epid=qaz123pc010849293799;userid=936201832302;sessionid=7069994b-720d-47ad-b97f-890a7920d6b8 CALL-ID:40 CSEQ:1 MESSAGE] hhhh} 
+2014/09/12 12:06:19 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 04:04:32 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc08206c480 -1 [chunked] false map[] 0xc0821085b0 <nil>} 
+2014/09/12 12:06:19 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 12:06:19 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 04:05:49 GMT]] 0xc08210e400 -1 [chunked] false map[] 0xc08207a1a0 <nil>} 
+2014/09/12 12:06:19 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{bf8a49ac-7681-4e6e-a032-37ce431788be} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020205114683 SOURCE:936201832302 CALL-ID:40 CSEQ:1 MESSAGE EVENT:msg DATE:1410494719 CONTENT-LENGTH:4 FROM:sip:17@dg.uu.com] hhhh} 
+2014/09/12 12:06:19 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {bf8a49ac-7681-4e6e-a032-37ce431788be}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020205114683
+CONTENT-LENGTH: 4
+FROM: sip:17@dg.uu.com
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410494719
+
+hhhh 
+2014/09/12 12:06:19 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:17@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020205114683
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 12:06:19 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{bf8a49ac-7681-4e6e-a032-37ce431788be} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020205168503 DATE:1410494719 CONTENT-LENGTH:4 FROM:sip:17@dg.uu.com CALL-ID:40 CSEQ:1 MESSAGE EVENT:msg] hhhh} 
+2014/09/12 12:06:19 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {bf8a49ac-7681-4e6e-a032-37ce431788be}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020205168503
+FROM: sip:17@dg.uu.com
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410494719
+CONTENT-LENGTH: 4
+
+hhhh 
+2014/09/12 12:06:19 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:17@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020205168503
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 12:06:19 [I] web req is  {"dg_id":17,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{bf8a49ac-7681-4e6e-a032-37ce431788be}","content":"hhhh","type":"msg","time":"1410494779"}]} 
+2014/09/12 12:06:19 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 04:04:32 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200df40 -1 [chunked] false map[] 0xc08207a5b0 <nil>} 
+2014/09/12 12:43:47 [I] Connection from:  10.1.9.101:51797 
+2014/09/12 12:54:47 [I] Closed connection: 10.1.9.101:51732 
+2014/09/12 12:54:50 [I] Connection from:  10.1.9.101:51814 
+2014/09/12 12:55:47 [I] Closed connection: 10.1.9.101:51733 
+2014/09/12 14:05:56 [I] Connection from:  10.1.9.101:51968 
+2014/09/12 14:07:01 [I] Connection from:  10.1.9.101:51993 
+2014/09/12 14:07:01 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[FROM:<sip:936201832302@uu.com>;epid=qaz123pc010803396832;userid=936201832302;sessionid=cfb11ef1-f8b2-45fc-9a7a-70ab1ff04aec CALL-ID:5 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{030ba69c-ad2e-4519-b662-6a27dfca4faf} EVENT:msg TO:sip:18@dg.uu.com DATE:1410501961] iii} 
+2014/09/12 14:07:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 06:05:13 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028]] 0xc08206c2c0 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 14:07:01 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 14:07:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:06:30 GMT]] 0xc082140080 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:07:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410501961 FROM:sip:18@dg.uu.com CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:3 TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020205394290 SOURCE:936201832302 MESSAGE-ID:{030ba69c-ad2e-4519-b662-6a27dfca4faf}] iii} 
+2014/09/12 14:07:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:18@dg.uu.com
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+DATE: 1410501961
+SOURCE: 936201832302
+MESSAGE-ID: {030ba69c-ad2e-4519-b662-6a27dfca4faf}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020205394290
+
+iii 
+2014/09/12 14:07:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:18@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020205394290
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:07:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410501961 FROM:sip:18@dg.uu.com CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:3 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020205453414 SOURCE:936201832302 MESSAGE-ID:{030ba69c-ad2e-4519-b662-6a27dfca4faf}] iii} 
+2014/09/12 14:07:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+DATE: 1410501961
+FROM: sip:18@dg.uu.com
+CALL-ID: 5
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020205453414
+SOURCE: 936201832302
+MESSAGE-ID: {030ba69c-ad2e-4519-b662-6a27dfca4faf}
+
+iii 
+2014/09/12 14:07:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:18@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020205453414
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:07:01 [I] web req is  {"dg_id":18,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{030ba69c-ad2e-4519-b662-6a27dfca4faf}","content":"iii","type":"msg","time":"1410502021"}]} 
+2014/09/12 14:07:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 06:05:14 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc0821403c0 -1 [chunked] false map[] 0xc08207a680 <nil>} 
+2014/09/12 14:08:01 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 4 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{b5d6c301-2076-4b2f-be9b-7769c6902553} EVENT:msg TO:sip:18@dg.uu.com DATE:1410502021 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020206531547;userid=225126862702;sessionid=bfe01252-6e67-4682-aa18-6949fcb0e944 CALL-ID:3] 1111} 
+2014/09/12 14:08:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:06:14 GMT] Content-Type:[application/json]] 0xc08206c540 -1 [chunked] false map[] 0xc082024a90 <nil>} 
+2014/09/12 14:08:01 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:08:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:07:30 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08200d780 -1 [chunked] false map[] 0xc08207a750 <nil>} 
+2014/09/12 14:08:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410502021 FROM:sip:18@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:4 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc020205453414 SOURCE:225126862702 MESSAGE-ID:{b5d6c301-2076-4b2f-be9b-7769c6902553}] 1111} 
+2014/09/12 14:08:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+CONTENT-LENGTH: 4
+DATE: 1410502021
+FROM: sip:18@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020205453414
+SOURCE: 225126862702
+MESSAGE-ID: {b5d6c301-2076-4b2f-be9b-7769c6902553}
+
+1111 
+2014/09/12 14:08:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:18@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc020205453414
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:08:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:4 DATE:1410502021 FROM:sip:18@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE EVENT:msg TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc010803396832 SOURCE:225126862702 MESSAGE-ID:{b5d6c301-2076-4b2f-be9b-7769c6902553}] 1111} 
+2014/09/12 14:08:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 4
+DATE: 1410502021
+FROM: sip:18@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+EVENT: msg
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010803396832
+SOURCE: 225126862702
+MESSAGE-ID: {b5d6c301-2076-4b2f-be9b-7769c6902553}
+
+1111 
+2014/09/12 14:08:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:18@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc010803396832
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:08:01 [I] web req is  {"dg_id":18,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{b5d6c301-2076-4b2f-be9b-7769c6902553}","content":"1111","type":"msg","time":"1410502081"}]} 
+2014/09/12 14:08:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:06:14 GMT] Content-Type:[application/json]] 0xc08206c700 -1 [chunked] false map[] 0xc082108680 <nil>} 
+2014/09/12 14:13:21 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[MESSAGE-ID:{b7eba94b-9f40-455c-bc65-c6824ee5fc10} EVENT:msg TO:sip:19@dg.uu.com DATE:1410502341 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:3 CSEQ:1 MESSAGE SOURCE:936201832302] df} 
+2014/09/12 14:13:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:11:34 GMT]] 0xc08200d4c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:13:21 [I] web req is  [225126862702,934593253230,936201832302] 
+2014/09/12 14:13:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:12:50 GMT] Server:[Microsoft-HTTPAPI/1.0]] 0xc082140080 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 14:13:21 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{b7eba94b-9f40-455c-bc65-c6824ee5fc10} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797 SOURCE:936201832302 CALL-ID:3 CSEQ:1 MESSAGE CONTENT-LENGTH:2 EVENT:msg DATE:1410502341 FROM:sip:19@dg.uu.com] df} 
+2014/09/12 14:13:21 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {b7eba94b-9f40-455c-bc65-c6824ee5fc10}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+SOURCE: 936201832302
+EVENT: msg
+DATE: 1410502341
+FROM: sip:19@dg.uu.com
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+
+df 
+2014/09/12 14:13:21 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:13:21 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{b7eba94b-9f40-455c-bc65-c6824ee5fc10} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302 EVENT:msg DATE:1410502341 FROM:sip:19@dg.uu.com CALL-ID:3 CSEQ:1 MESSAGE CONTENT-LENGTH:2] df} 
+2014/09/12 14:13:21 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {b7eba94b-9f40-455c-bc65-c6824ee5fc10}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+EVENT: msg
+DATE: 1410502341
+FROM: sip:19@dg.uu.com
+
+df 
+2014/09/12 14:13:21 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:13:21 [I] web req is  {"dg_id":19,"online_users":[225126862702,934593253230,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{b7eba94b-9f40-455c-bc65-c6824ee5fc10}","content":"df","type":"msg","time":"1410502401"}]} 
+2014/09/12 14:13:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:11:34 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc0821402c0 -1 [chunked] false map[] 0xc0821088f0 <nil>} 
+2014/09/12 14:23:04 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[SOURCE:936201832302 MESSAGE-ID:{b7cd1255-4718-4d26-b639-31fe8f063355} EVENT:msg TO:sip:19@dg.uu.com DATE:1410502924 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:9 CSEQ:1 MESSAGE] hg} 
+2014/09/12 14:23:04 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:21:16 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08206c280 -1 [chunked] false map[] 0xc082024340 <nil>} 
+2014/09/12 14:23:04 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:23:04 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:22:33 GMT]] 0xc08200d580 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:23:04 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{b7cd1255-4718-4d26-b639-31fe8f063355} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 DATE:1410502924 FROM:sip:19@dg.uu.com CALL-ID:9 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:2] hg} 
+2014/09/12 14:23:04 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {b7cd1255-4718-4d26-b639-31fe8f063355}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+FROM: sip:19@dg.uu.com
+CALL-ID: 9
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 2
+DATE: 1410502924
+
+hg 
+2014/09/12 14:23:04 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 9
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:23:04 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{b7cd1255-4718-4d26-b639-31fe8f063355} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:2 DATE:1410502924 FROM:sip:19@dg.uu.com CALL-ID:9] hg} 
+2014/09/12 14:23:04 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {b7cd1255-4718-4d26-b639-31fe8f063355}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+DATE: 1410502924
+FROM: sip:19@dg.uu.com
+CALL-ID: 9
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 2
+
+hg 
+2014/09/12 14:23:04 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+CALL-ID: 9
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:23:04 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{b7cd1255-4718-4d26-b639-31fe8f063355}","content":"hg","type":"msg","time":"1410502984"}]} 
+2014/09/12 14:23:04 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:21:16 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08206c640 -1 [chunked] false map[] 0xc082108750 <nil>} 
+2014/09/12 14:34:55 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 1 map[SOURCE:936201832302 MESSAGE-ID:{f4e16313-ce94-43a7-80ac-ef6634ead468} EVENT:msg TO:sip:19@dg.uu.com DATE:1410503635 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:16 CSEQ:1 MESSAGE] d} 
+2014/09/12 14:34:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:33:07 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08206c280 -1 [chunked] false map[] 0xc082024340 <nil>} 
+2014/09/12 14:34:55 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:34:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:34:24 GMT]] 0xc08206c5c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:34:55 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410503635 FROM:sip:19@dg.uu.com CALL-ID:16 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:1 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302 MESSAGE-ID:{f4e16313-ce94-43a7-80ac-ef6634ead468}] d} 
+2014/09/12 14:34:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:19@dg.uu.com
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 1
+DATE: 1410503635
+SOURCE: 936201832302
+MESSAGE-ID: {f4e16313-ce94-43a7-80ac-ef6634ead468}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+
+d 
+2014/09/12 14:34:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:34:55 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410503635 FROM:sip:19@dg.uu.com CALL-ID:16 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:1 TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797 SOURCE:936201832302 MESSAGE-ID:{f4e16313-ce94-43a7-80ac-ef6634ead468}] d} 
+2014/09/12 14:34:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410503635
+FROM: sip:19@dg.uu.com
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 1
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+SOURCE: 936201832302
+MESSAGE-ID: {f4e16313-ce94-43a7-80ac-ef6634ead468}
+
+d 
+2014/09/12 14:34:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:34:55 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{f4e16313-ce94-43a7-80ac-ef6634ead468}","content":"d","type":"msg","time":"1410503695"}]} 
+2014/09/12 14:34:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:33:07 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08206c940 -1 [chunked] false map[] 0xc08207a750 <nil>} 
+2014/09/12 14:39:01 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[MESSAGE-ID:{27d7dfad-3212-4bce-aef5-8eb879640468} EVENT:msg TO:sip:19@dg.uu.com DATE:1410503881 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:18 CSEQ:1 MESSAGE SOURCE:936201832302] jj} 
+2014/09/12 14:39:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 06:37:14 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028]] 0xc08206c440 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:39:01 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:39:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:38:30 GMT]] 0xc082140080 -1 [chunked] false map[] 0xc08207a1a0 <nil>} 
+2014/09/12 14:39:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:2 CALL-ID:18 CSEQ:1 MESSAGE EVENT:msg DATE:1410503881 FROM:sip:19@dg.uu.com SOURCE:936201832302 MESSAGE-ID:{27d7dfad-3212-4bce-aef5-8eb879640468} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539] jj} 
+2014/09/12 14:39:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 2
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410503881
+FROM: sip:19@dg.uu.com
+SOURCE: 936201832302
+MESSAGE-ID: {27d7dfad-3212-4bce-aef5-8eb879640468}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+
+jj 
+2014/09/12 14:39:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:39:01 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410503881 FROM:sip:19@dg.uu.com CONTENT-LENGTH:2 CALL-ID:18 CSEQ:1 MESSAGE TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797 SOURCE:936201832302 MESSAGE-ID:{27d7dfad-3212-4bce-aef5-8eb879640468}] jj} 
+2014/09/12 14:39:01 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:19@dg.uu.com
+CONTENT-LENGTH: 2
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410503881
+SOURCE: 936201832302
+MESSAGE-ID: {27d7dfad-3212-4bce-aef5-8eb879640468}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+
+jj 
+2014/09/12 14:39:01 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:39:01 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{27d7dfad-3212-4bce-aef5-8eb879640468}","content":"jj","type":"msg","time":"1410503941"}]} 
+2014/09/12 14:39:01 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:37:14 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08200d600 -1 [chunked] false map[] 0xc08207aa90 <nil>} 
+2014/09/12 14:39:14 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[EVENT:msg TO:sip:19@dg.uu.com DATE:1410503894 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:19 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{4c1d1cbf-8502-4688-9fce-62bcf2cac047}] 678} 
+2014/09/12 14:39:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:37:26 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc082140440 -1 [chunked] false map[] 0xc08207ab60 <nil>} 
+2014/09/12 14:39:14 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:39:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:38:43 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08206c880 -1 [chunked] false map[] 0xc082108270 <nil>} 
+2014/09/12 14:39:14 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{4c1d1cbf-8502-4688-9fce-62bcf2cac047} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 DATE:1410503894 FROM:sip:19@dg.uu.com CALL-ID:19 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:3] 678} 
+2014/09/12 14:39:14 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {4c1d1cbf-8502-4688-9fce-62bcf2cac047}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+DATE: 1410503894
+FROM: sip:19@dg.uu.com
+CALL-ID: 19
+
+678 
+2014/09/12 14:39:14 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 19
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:39:14 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{4c1d1cbf-8502-4688-9fce-62bcf2cac047} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797 EVENT:msg CONTENT-LENGTH:3 DATE:1410503894 FROM:sip:19@dg.uu.com CALL-ID:19 CSEQ:1 MESSAGE] 678} 
+2014/09/12 14:39:14 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {4c1d1cbf-8502-4688-9fce-62bcf2cac047}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+DATE: 1410503894
+FROM: sip:19@dg.uu.com
+CALL-ID: 19
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+
+678 
+2014/09/12 14:39:14 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+CALL-ID: 19
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:39:14 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{4c1d1cbf-8502-4688-9fce-62bcf2cac047}","content":"678","type":"msg","time":"1410503954"}]} 
+2014/09/12 14:39:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 06:37:26 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08206ca40 -1 [chunked] false map[] 0xc082024f70 <nil>} 
+2014/09/12 14:39:31 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 5 map[SOURCE:225126862702 MESSAGE-ID:{f78a7c17-113b-4d55-a431-202960f9b3ba} EVENT:msg TO:sip:19@dg.uu.com DATE:1410503911 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020212152797;userid=225126862702;sessionid=ee569f7b-bcb0-4740-b57c-a5a22c851249 CALL-ID:15 CSEQ:1 MESSAGE] 66666} 
+2014/09/12 14:39:31 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:37:43 GMT]] 0xc082140640 -1 [chunked] false map[] 0xc082025110 <nil>} 
+2014/09/12 14:39:31 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:39:31 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:39:00 GMT]] 0xc08200d9c0 -1 [chunked] false map[] 0xc0821089c0 <nil>} 
+2014/09/12 14:39:31 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:5 EVENT:msg DATE:1410503911 FROM:sip:19@dg.uu.com CALL-ID:15 CSEQ:1 MESSAGE TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 MESSAGE-ID:{f78a7c17-113b-4d55-a431-202960f9b3ba}] 66666} 
+2014/09/12 14:39:31 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:19@dg.uu.com
+CALL-ID: 15
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 5
+EVENT: msg
+DATE: 1410503911
+MESSAGE-ID: {f78a7c17-113b-4d55-a431-202960f9b3ba}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+
+66666 
+2014/09/12 14:39:31 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 15
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:39:31 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[FROM:sip:19@dg.uu.com CALL-ID:15 CSEQ:1 MESSAGE CONTENT-LENGTH:5 EVENT:msg DATE:1410503911 MESSAGE-ID:{f78a7c17-113b-4d55-a431-202960f9b3ba} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702] 66666} 
+2014/09/12 14:39:31 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 15
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 5
+EVENT: msg
+DATE: 1410503911
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+SOURCE: 225126862702
+MESSAGE-ID: {f78a7c17-113b-4d55-a431-202960f9b3ba}
+
+66666 
+2014/09/12 14:39:31 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 15
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:39:31 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{f78a7c17-113b-4d55-a431-202960f9b3ba}","content":"66666","type":"msg","time":"1410503971"}]} 
+2014/09/12 14:39:31 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:37:43 GMT] Content-Type:[application/json]] 0xc08200dbc0 -1 [chunked] false map[] 0xc082108c30 <nil>} 
+2014/09/12 14:42:48 [I] Connection from:  10.1.9.101:52065 
+2014/09/12 14:48:56 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[DATE:1410504476 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:27 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{2b6d5e35-3877-4610-8fa9-2a79ef45a601} EVENT:msg TO:sip:19@dg.uu.com] hj} 
+2014/09/12 14:48:56 [I] Connection from:  10.1.9.101:52075 
+2014/09/12 14:48:56 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:47:09 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc08200d5c0 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 14:48:56 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:48:56 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:48:26 GMT] Server:[Microsoft-HTTPAPI/1.0]] 0xc08200d8c0 -1 [chunked] false map[] 0xc082024340 <nil>} 
+2014/09/12 14:48:56 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:2 DATE:1410504476 FROM:sip:19@dg.uu.com CALL-ID:27 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302 MESSAGE-ID:{2b6d5e35-3877-4610-8fa9-2a79ef45a601}] hj} 
+2014/09/12 14:48:56 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410504476
+FROM: sip:19@dg.uu.com
+CALL-ID: 27
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 2
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+MESSAGE-ID: {2b6d5e35-3877-4610-8fa9-2a79ef45a601}
+
+hj 
+2014/09/12 14:48:56 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 27
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:48:56 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:2 DATE:1410504476 FROM:sip:19@dg.uu.com CALL-ID:27 CSEQ:1 MESSAGE EVENT:msg TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797 SOURCE:936201832302 MESSAGE-ID:{2b6d5e35-3877-4610-8fa9-2a79ef45a601}] hj} 
+2014/09/12 14:48:56 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 2
+DATE: 1410504476
+FROM: sip:19@dg.uu.com
+CALL-ID: 27
+CSEQ: 1 MESSAGE
+EVENT: msg
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+SOURCE: 936201832302
+MESSAGE-ID: {2b6d5e35-3877-4610-8fa9-2a79ef45a601}
+
+hj 
+2014/09/12 14:48:56 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020212152797
+CALL-ID: 27
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:48:56 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{2b6d5e35-3877-4610-8fa9-2a79ef45a601}","content":"hj","type":"msg","time":"1410504536"}]} 
+2014/09/12 14:48:56 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 06:47:09 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc082140280 -1 [chunked] false map[] 0xc0820251e0 <nil>} 
+2014/09/12 14:49:46 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 4 map[FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:3 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{9478328a-2a52-4954-93c0-e31ef0464999} EVENT:msg TO:sip:19@dg.uu.com DATE:1410504526] hhhh} 
+2014/09/12 14:49:46 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:47:58 GMT]] 0xc08206c280 -1 [chunked] false map[] 0xc0820252b0 <nil>} 
+2014/09/12 14:49:46 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:49:46 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:49:15 GMT]] 0xc082140340 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:49:46 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410504526 FROM:sip:19@dg.uu.com CALL-ID:3 CONTENT-LENGTH:4 CSEQ:1 MESSAGE MESSAGE-ID:{9478328a-2a52-4954-93c0-e31ef0464999} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702] hhhh} 
+2014/09/12 14:49:46 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410504526
+FROM: sip:19@dg.uu.com
+CALL-ID: 3
+CONTENT-LENGTH: 4
+CSEQ: 1 MESSAGE
+EVENT: msg
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+MESSAGE-ID: {9478328a-2a52-4954-93c0-e31ef0464999}
+
+hhhh 
+2014/09/12 14:49:46 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:49:46 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410504526 FROM:sip:19@dg.uu.com CALL-ID:3 CONTENT-LENGTH:4 SOURCE:225126862702 MESSAGE-ID:{9478328a-2a52-4954-93c0-e31ef0464999} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508] hhhh} 
+2014/09/12 14:49:46 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410504526
+FROM: sip:19@dg.uu.com
+CALL-ID: 3
+CONTENT-LENGTH: 4
+SOURCE: 225126862702
+MESSAGE-ID: {9478328a-2a52-4954-93c0-e31ef0464999}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+
+hhhh 
+2014/09/12 14:49:46 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 3
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:49:46 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{9478328a-2a52-4954-93c0-e31ef0464999}","content":"hhhh","type":"msg","time":"1410504586"}]} 
+2014/09/12 14:49:46 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:47:58 GMT] Content-Type:[application/json]] 0xc08206c780 -1 [chunked] false map[] 0xc082025520 <nil>} 
+2014/09/12 14:49:51 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 4 map[CALL-ID:4 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{0cf0dcff-aab0-4469-8ed2-bbf0c6c3f893} EVENT:msg TO:sip:19@dg.uu.com DATE:1410504532 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5] hyyh} 
+2014/09/12 14:49:51 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:48:04 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc08206c800 -1 [chunked] false map[] 0xc0820255f0 <nil>} 
+2014/09/12 14:49:51 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:49:51 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:49:21 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc082140580 -1 [chunked] false map[] 0xc08207a1a0 <nil>} 
+2014/09/12 14:49:51 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{0cf0dcff-aab0-4469-8ed2-bbf0c6c3f893} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 FROM:sip:19@dg.uu.com CALL-ID:4 CSEQ:1 MESSAGE EVENT:msg DATE:1410504532 CONTENT-LENGTH:4] hyyh} 
+2014/09/12 14:49:51 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {0cf0dcff-aab0-4469-8ed2-bbf0c6c3f893}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+EVENT: msg
+DATE: 1410504532
+CONTENT-LENGTH: 4
+FROM: sip:19@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+hyyh 
+2014/09/12 14:49:51 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:49:51 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{0cf0dcff-aab0-4469-8ed2-bbf0c6c3f893} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 DATE:1410504532 CONTENT-LENGTH:4 FROM:sip:19@dg.uu.com CALL-ID:4 CSEQ:1 MESSAGE EVENT:msg] hyyh} 
+2014/09/12 14:49:51 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {0cf0dcff-aab0-4469-8ed2-bbf0c6c3f893}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+FROM: sip:19@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410504532
+CONTENT-LENGTH: 4
+
+hyyh 
+2014/09/12 14:49:51 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:49:51 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{0cf0dcff-aab0-4469-8ed2-bbf0c6c3f893}","content":"hyyh","type":"msg","time":"1410504591"}]} 
+2014/09/12 14:49:51 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:48:04 GMT] Content-Type:[application/json]] 0xc08206cb00 -1 [chunked] false map[] 0xc082025930 <nil>} 
+2014/09/12 14:49:59 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[SOURCE:225126862702 MESSAGE-ID:{129f6ab7-bd10-416f-af42-f5fc48b76f1a} EVENT:msg TO:sip:19@dg.uu.com DATE:1410504539 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:5 CSEQ:1 MESSAGE] hghyty} 
+2014/09/12 14:49:59 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:48:12 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx]] 0xc08206cb80 -1 [chunked] false map[] 0xc082025a00 <nil>} 
+2014/09/12 14:49:59 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:49:59 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:49:28 GMT]] 0xc0820f2240 -1 [chunked] false map[] 0xc08207a8f0 <nil>} 
+2014/09/12 14:49:59 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410504539 FROM:sip:19@dg.uu.com CONTENT-LENGTH:6 CALL-ID:5 CSEQ:1 MESSAGE TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 MESSAGE-ID:{129f6ab7-bd10-416f-af42-f5fc48b76f1a}] hghyty} 
+2014/09/12 14:49:59 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:19@dg.uu.com
+CONTENT-LENGTH: 6
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410504539
+SOURCE: 225126862702
+MESSAGE-ID: {129f6ab7-bd10-416f-af42-f5fc48b76f1a}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+
+hghyty 
+2014/09/12 14:49:59 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:49:59 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:5 CSEQ:1 MESSAGE EVENT:msg DATE:1410504539 FROM:sip:19@dg.uu.com CONTENT-LENGTH:6 SOURCE:225126862702 MESSAGE-ID:{129f6ab7-bd10-416f-af42-f5fc48b76f1a} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508] hghyty} 
+2014/09/12 14:49:59 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410504539
+FROM: sip:19@dg.uu.com
+CONTENT-LENGTH: 6
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+EVENT: msg
+SOURCE: 225126862702
+MESSAGE-ID: {129f6ab7-bd10-416f-af42-f5fc48b76f1a}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+
+hghyty 
+2014/09/12 14:49:59 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 5
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:49:59 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{129f6ab7-bd10-416f-af42-f5fc48b76f1a}","content":"hghyty","type":"msg","time":"1410504599"}]} 
+2014/09/12 14:49:59 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:48:12 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc0820f2540 -1 [chunked] false map[] 0xc082109040 <nil>} 
+2014/09/12 14:51:08 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[DATE:1410504609 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:6 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{3e9dd571-63a5-40a7-be7b-c538d35dc2d2} EVENT:msg TO:sip:19@dg.uu.com] yuy} 
+2014/09/12 14:51:08 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:49:21 GMT]] 0xc0821400c0 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 14:51:08 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:51:08 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:50:38 GMT]] 0xc08206c2c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 14:51:08 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[FROM:sip:19@dg.uu.com CALL-ID:6 CSEQ:1 MESSAGE CONTENT-LENGTH:3 EVENT:msg DATE:1410504609 MESSAGE-ID:{3e9dd571-63a5-40a7-be7b-c538d35dc2d2} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702] yuy} 
+2014/09/12 14:51:08 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+EVENT: msg
+DATE: 1410504609
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+MESSAGE-ID: {3e9dd571-63a5-40a7-be7b-c538d35dc2d2}
+
+yuy 
+2014/09/12 14:51:08 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:51:08 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:3 EVENT:msg DATE:1410504609 FROM:sip:19@dg.uu.com CALL-ID:6 CSEQ:1 MESSAGE TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702 MESSAGE-ID:{3e9dd571-63a5-40a7-be7b-c538d35dc2d2}] yuy} 
+2014/09/12 14:51:08 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+FROM: sip:19@dg.uu.com
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+EVENT: msg
+DATE: 1410504609
+MESSAGE-ID: {3e9dd571-63a5-40a7-be7b-c538d35dc2d2}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+SOURCE: 225126862702
+
+yuy 
+2014/09/12 14:51:08 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 6
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:51:08 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{3e9dd571-63a5-40a7-be7b-c538d35dc2d2}","content":"yuy","type":"msg","time":"1410504668"}]} 
+2014/09/12 14:51:08 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 06:49:21 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200d740 -1 [chunked] false map[] 0xc0820252b0 <nil>} 
+2014/09/12 14:51:20 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{9c2e9ef4-117d-43b5-9ff2-5cac1684b209} EVENT:msg TO:sip:19@dg.uu.com DATE:1410504621 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:7] hhh} 
+2014/09/12 14:51:20 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 06:49:33 GMT] Content-Type:[application/json]] 0xc08206c700 -1 [chunked] false map[] 0xc082108270 <nil>} 
+2014/09/12 14:51:20 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 14:51:20 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 06:50:50 GMT]] 0xc082140400 -1 [chunked] false map[] 0xc082025380 <nil>} 
+2014/09/12 14:51:20 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{9c2e9ef4-117d-43b5-9ff2-5cac1684b209} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 CONTENT-LENGTH:3 DATE:1410504621 FROM:sip:19@dg.uu.com CALL-ID:7 CSEQ:1 MESSAGE EVENT:msg] hhh} 
+2014/09/12 14:51:20 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+MESSAGE-ID: {9c2e9ef4-117d-43b5-9ff2-5cac1684b209}
+CALL-ID: 7
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 3
+DATE: 1410504621
+FROM: sip:19@dg.uu.com
+
+hhh 
+2014/09/12 14:51:20 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 7
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:51:20 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:225126862702 MESSAGE-ID:{9c2e9ef4-117d-43b5-9ff2-5cac1684b209} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 DATE:1410504621 FROM:sip:19@dg.uu.com CALL-ID:7 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:3] hhh} 
+2014/09/12 14:51:20 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {9c2e9ef4-117d-43b5-9ff2-5cac1684b209}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+EVENT: msg
+CONTENT-LENGTH: 3
+DATE: 1410504621
+FROM: sip:19@dg.uu.com
+CALL-ID: 7
+CSEQ: 1 MESSAGE
+
+hhh 
+2014/09/12 14:51:20 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 7
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 14:51:20 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{9c2e9ef4-117d-43b5-9ff2-5cac1684b209}","content":"hhh","type":"msg","time":"1410504680"}]} 
+2014/09/12 14:51:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 06:49:33 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx]] 0xc08206c980 -1 [chunked] false map[] 0xc08207ac30 <nil>} 
+2014/09/12 14:51:48 [I] Closed connection: 10.1.9.101:51993 
+2014/09/12 14:54:48 [I] Closed connection: 10.1.9.101:51968 
+2014/09/12 15:02:27 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:34 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{0f3e068f-4357-4f2f-89ba-607223d541ea} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505287] gh} 
+2014/09/12 15:02:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:00:39 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc0821400c0 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 15:02:27 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:02:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:01:56 GMT]] 0xc08206c100 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 15:02:27 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410505287 FROM:sip:19@dg.uu.com CALL-ID:34 CSEQ:1 MESSAGE CONTENT-LENGTH:2 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302 MESSAGE-ID:{0f3e068f-4357-4f2f-89ba-607223d541ea}] gh} 
+2014/09/12 15:02:27 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410505287
+FROM: sip:19@dg.uu.com
+CALL-ID: 34
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+MESSAGE-ID: {0f3e068f-4357-4f2f-89ba-607223d541ea}
+
+gh 
+2014/09/12 15:02:27 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 34
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:02:27 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410505287 FROM:sip:19@dg.uu.com CALL-ID:34 CSEQ:1 MESSAGE CONTENT-LENGTH:2 TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 SOURCE:936201832302 MESSAGE-ID:{0f3e068f-4357-4f2f-89ba-607223d541ea}] gh} 
+2014/09/12 15:02:27 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410505287
+FROM: sip:19@dg.uu.com
+CALL-ID: 34
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+SOURCE: 936201832302
+MESSAGE-ID: {0f3e068f-4357-4f2f-89ba-607223d541ea}
+
+gh 
+2014/09/12 15:02:27 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 34
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:02:27 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{0f3e068f-4357-4f2f-89ba-607223d541ea}","content":"gh","type":"msg","time":"1410505347"}]} 
+2014/09/12 15:02:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:00:39 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc082140380 -1 [chunked] false map[] 0xc0820255f0 <nil>} 
+2014/09/12 15:02:35 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 5 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{143b375f-5b9c-483e-ba6e-969d49206494} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505295 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:14] rtttr} 
+2014/09/12 15:02:35 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:00:47 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc082140540 -1 [chunked] false map[] 0xc08207a820 <nil>} 
+2014/09/12 15:02:35 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:02:35 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:02:04 GMT]] 0xc08206c680 -1 [chunked] false map[] 0xc08207a8f0 <nil>} 
+2014/09/12 15:02:35 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 MESSAGE-ID:{143b375f-5b9c-483e-ba6e-969d49206494} FROM:sip:19@dg.uu.com CALL-ID:14 CSEQ:1 MESSAGE CONTENT-LENGTH:5 EVENT:msg DATE:1410505295] rtttr} 
+2014/09/12 15:02:35 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {143b375f-5b9c-483e-ba6e-969d49206494}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 5
+EVENT: msg
+DATE: 1410505295
+FROM: sip:19@dg.uu.com
+CALL-ID: 14
+
+rtttr 
+2014/09/12 15:02:35 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:02:35 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702 MESSAGE-ID:{143b375f-5b9c-483e-ba6e-969d49206494} FROM:sip:19@dg.uu.com CALL-ID:14 CSEQ:1 MESSAGE CONTENT-LENGTH:5 EVENT:msg DATE:1410505295] rtttr} 
+2014/09/12 15:02:35 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {143b375f-5b9c-483e-ba6e-969d49206494}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 5
+EVENT: msg
+DATE: 1410505295
+FROM: sip:19@dg.uu.com
+
+rtttr 
+2014/09/12 15:02:35 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 14
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:02:35 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{143b375f-5b9c-483e-ba6e-969d49206494}","content":"rtttr","type":"msg","time":"1410505355"}]} 
+2014/09/12 15:02:35 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:00:47 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx]] 0xc082140900 -1 [chunked] false map[] 0xc08207aea0 <nil>} 
+2014/09/12 15:02:46 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 12 map[MESSAGE-ID:{f799e9ad-0e66-4723-8d68-7bd02345d745} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505307 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:15 CSEQ:1 MESSAGE SOURCE:225126862702] hhhhhhhhhhhh} 
+2014/09/12 15:02:47 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:00:59 GMT] Content-Type:[application/json]] 0xc08200d5c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 15:02:47 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:02:47 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:02:16 GMT]] 0xc08206c100 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 15:02:47 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410505307 FROM:sip:19@dg.uu.com CALL-ID:15 CONTENT-LENGTH:12 SOURCE:225126862702 MESSAGE-ID:{f799e9ad-0e66-4723-8d68-7bd02345d745} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539] hhhhhhhhhhhh} 
+2014/09/12 15:02:47 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410505307
+FROM: sip:19@dg.uu.com
+CALL-ID: 15
+CONTENT-LENGTH: 12
+SOURCE: 225126862702
+MESSAGE-ID: {f799e9ad-0e66-4723-8d68-7bd02345d745}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+
+hhhhhhhhhhhh 
+2014/09/12 15:02:47 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 15
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:02:47 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CONTENT-LENGTH:12 CSEQ:1 MESSAGE EVENT:msg DATE:1410505307 FROM:sip:19@dg.uu.com CALL-ID:15 SOURCE:225126862702 MESSAGE-ID:{f799e9ad-0e66-4723-8d68-7bd02345d745} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508] hhhhhhhhhhhh} 
+2014/09/12 15:02:47 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 12
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410505307
+FROM: sip:19@dg.uu.com
+CALL-ID: 15
+SOURCE: 225126862702
+MESSAGE-ID: {f799e9ad-0e66-4723-8d68-7bd02345d745}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+
+hhhhhhhhhhhh 
+2014/09/12 15:02:47 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 15
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:02:47 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{f799e9ad-0e66-4723-8d68-7bd02345d745}","content":"hhhhhhhhhhhh","type":"msg","time":"1410505367"}]} 
+2014/09/12 15:02:47 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:00:59 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc0821402c0 -1 [chunked] false map[] 0xc082024a90 <nil>} 
+2014/09/12 15:04:22 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{1f7cf182-8a8e-43ec-8729-e4d43f11f40b} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505402 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:36] fff} 
+2014/09/12 15:04:22 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:02:35 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08206c7c0 -1 [chunked] false map[] 0xc082025790 <nil>} 
+2014/09/12 15:04:22 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:04:22 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:03:51 GMT]] 0xc0821403c0 -1 [chunked] false map[] 0xc082025a00 <nil>} 
+2014/09/12 15:04:22 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410505402 FROM:sip:19@dg.uu.com CALL-ID:36 CSEQ:1 MESSAGE CONTENT-LENGTH:3 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302 MESSAGE-ID:{1f7cf182-8a8e-43ec-8729-e4d43f11f40b}] fff} 
+2014/09/12 15:04:22 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410505402
+FROM: sip:19@dg.uu.com
+CALL-ID: 36
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+MESSAGE-ID: {1f7cf182-8a8e-43ec-8729-e4d43f11f40b}
+
+fff 
+2014/09/12 15:04:22 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 36
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:04:22 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:36 CSEQ:1 MESSAGE CONTENT-LENGTH:3 EVENT:msg DATE:1410505402 FROM:sip:19@dg.uu.com TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 SOURCE:936201832302 MESSAGE-ID:{1f7cf182-8a8e-43ec-8729-e4d43f11f40b}] fff} 
+2014/09/12 15:04:22 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410505402
+FROM: sip:19@dg.uu.com
+CALL-ID: 36
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+SOURCE: 936201832302
+MESSAGE-ID: {1f7cf182-8a8e-43ec-8729-e4d43f11f40b}
+
+fff 
+2014/09/12 15:04:22 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 36
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:04:22 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{1f7cf182-8a8e-43ec-8729-e4d43f11f40b}","content":"fff","type":"msg","time":"1410505462"}]} 
+2014/09/12 15:04:22 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:02:35 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc082140700 -1 [chunked] false map[] 0xc082108d00 <nil>} 
+2014/09/12 15:04:30 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 17 map[CALL-ID:16 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{cfd9b57d-d835-450b-9869-c3d91646f838} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505410 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5] 11111111111111111} 
+2014/09/12 15:04:30 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:02:42 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08206ca00 -1 [chunked] false map[] 0xc082108dd0 <nil>} 
+2014/09/12 15:04:30 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:04:30 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:03:59 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08200db00 -1 [chunked] false map[] 0xc082025ad0 <nil>} 
+2014/09/12 15:04:30 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410505410 FROM:sip:19@dg.uu.com CALL-ID:16 CSEQ:1 MESSAGE CONTENT-LENGTH:17 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 MESSAGE-ID:{cfd9b57d-d835-450b-9869-c3d91646f838}] 11111111111111111} 
+2014/09/12 15:04:30 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 17
+EVENT: msg
+DATE: 1410505410
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+MESSAGE-ID: {cfd9b57d-d835-450b-9869-c3d91646f838}
+
+11111111111111111 
+2014/09/12 15:04:30 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:04:30 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410505410 FROM:sip:19@dg.uu.com CALL-ID:16 CSEQ:1 MESSAGE CONTENT-LENGTH:17 TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702 MESSAGE-ID:{cfd9b57d-d835-450b-9869-c3d91646f838}] 11111111111111111} 
+2014/09/12 15:04:30 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410505410
+FROM: sip:19@dg.uu.com
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 17
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+SOURCE: 225126862702
+MESSAGE-ID: {cfd9b57d-d835-450b-9869-c3d91646f838}
+
+11111111111111111 
+2014/09/12 15:04:30 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 16
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:04:30 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{cfd9b57d-d835-450b-9869-c3d91646f838}","content":"11111111111111111","type":"msg","time":"1410505470"}]} 
+2014/09/12 15:04:30 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[nginx] Date:[Fri, 12 Sep 2014 07:02:42 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74]] 0xc08200de80 -1 [chunked] false map[] 0xc08207a8f0 <nil>} 
+2014/09/12 15:05:27 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 4 map[CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{7dae7081-17d6-4d88-a1f3-b4d6072f0dbc} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505467 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:37] vvvv} 
+2014/09/12 15:05:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:03:39 GMT] Content-Type:[application/json]] 0xc08200d5c0 -1 [chunked] false map[] 0xc082024340 <nil>} 
+2014/09/12 15:05:27 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:05:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:04:56 GMT] Server:[Microsoft-HTTPAPI/1.0]] 0xc0821401c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 15:05:27 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{7dae7081-17d6-4d88-a1f3-b4d6072f0dbc} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 CALL-ID:37 CSEQ:1 MESSAGE CONTENT-LENGTH:4 EVENT:msg DATE:1410505467 FROM:sip:19@dg.uu.com] vvvv} 
+2014/09/12 15:05:27 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {7dae7081-17d6-4d88-a1f3-b4d6072f0dbc}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+EVENT: msg
+DATE: 1410505467
+FROM: sip:19@dg.uu.com
+CALL-ID: 37
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 4
+
+vvvv 
+2014/09/12 15:05:27 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 37
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:05:27 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{7dae7081-17d6-4d88-a1f3-b4d6072f0dbc} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 SOURCE:936201832302 DATE:1410505467 FROM:sip:19@dg.uu.com CALL-ID:37 CSEQ:1 MESSAGE CONTENT-LENGTH:4 EVENT:msg] vvvv} 
+2014/09/12 15:05:27 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {7dae7081-17d6-4d88-a1f3-b4d6072f0dbc}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CONTENT-LENGTH: 4
+EVENT: msg
+DATE: 1410505467
+FROM: sip:19@dg.uu.com
+CALL-ID: 37
+CSEQ: 1 MESSAGE
+
+vvvv 
+2014/09/12 15:05:27 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 37
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:05:27 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{7dae7081-17d6-4d88-a1f3-b4d6072f0dbc}","content":"vvvv","type":"msg","time":"1410505527"}]} 
+2014/09/12 15:05:27 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:03:39 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08206c480 -1 [chunked] false map[] 0xc082108a90 <nil>} 
+2014/09/12 15:05:47 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 5 map[TO:sip:19@dg.uu.com DATE:1410505487 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:18 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{6ff0ea75-8468-4945-af7f-838f4df5cabd} EVENT:msg] bggbb} 
+2014/09/12 15:05:47 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:04:00 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08200d940 -1 [chunked] false map[] 0xc082108dd0 <nil>} 
+2014/09/12 15:05:47 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:05:47 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:05:16 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08206c540 -1 [chunked] false map[] 0xc08207a820 <nil>} 
+2014/09/12 15:05:47 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410505487 FROM:sip:19@dg.uu.com CALL-ID:18 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:5 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 MESSAGE-ID:{6ff0ea75-8468-4945-af7f-838f4df5cabd}] bggbb} 
+2014/09/12 15:05:47 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+CONTENT-LENGTH: 5
+DATE: 1410505487
+FROM: sip:19@dg.uu.com
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+MESSAGE-ID: {6ff0ea75-8468-4945-af7f-838f4df5cabd}
+
+bggbb 
+2014/09/12 15:05:47 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:05:47 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:18 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:5 DATE:1410505487 FROM:sip:19@dg.uu.com MESSAGE-ID:{6ff0ea75-8468-4945-af7f-838f4df5cabd} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702] bggbb} 
+2014/09/12 15:05:47 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 5
+DATE: 1410505487
+FROM: sip:19@dg.uu.com
+CALL-ID: 18
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+SOURCE: 225126862702
+MESSAGE-ID: {6ff0ea75-8468-4945-af7f-838f4df5cabd}
+
+bggbb 
+2014/09/12 15:05:47 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 18
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:05:47 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{6ff0ea75-8468-4945-af7f-838f4df5cabd}","content":"bggbb","type":"msg","time":"1410505547"}]} 
+2014/09/12 15:05:47 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:04:00 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx]] 0xc082140640 -1 [chunked] false map[] 0xc082025a00 <nil>} 
+2014/09/12 15:12:15 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[MESSAGE-ID:{daa620da-1ce4-4f65-9c0a-1da5cd48d796} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505876 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:40 CSEQ:1 MESSAGE SOURCE:936201832302] df} 
+2014/09/12 15:12:15 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:10:28 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200d5c0 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 15:12:15 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:12:15 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:11:45 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc08206c100 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 15:12:15 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:40 CSEQ:1 MESSAGE EVENT:msg DATE:1410505876 FROM:sip:19@dg.uu.com CONTENT-LENGTH:2 SOURCE:936201832302 MESSAGE-ID:{daa620da-1ce4-4f65-9c0a-1da5cd48d796} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539] df} 
+2014/09/12 15:12:15 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+DATE: 1410505876
+FROM: sip:19@dg.uu.com
+CONTENT-LENGTH: 2
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+EVENT: msg
+SOURCE: 936201832302
+MESSAGE-ID: {daa620da-1ce4-4f65-9c0a-1da5cd48d796}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+
+df 
+2014/09/12 15:12:15 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:12:15 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[FROM:sip:19@dg.uu.com CONTENT-LENGTH:2 CALL-ID:40 CSEQ:1 MESSAGE EVENT:msg DATE:1410505876 SOURCE:936201832302 MESSAGE-ID:{daa620da-1ce4-4f65-9c0a-1da5cd48d796} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327] df} 
+2014/09/12 15:12:15 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410505876
+FROM: sip:19@dg.uu.com
+CONTENT-LENGTH: 2
+SOURCE: 936201832302
+MESSAGE-ID: {daa620da-1ce4-4f65-9c0a-1da5cd48d796}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+
+df 
+2014/09/12 15:12:15 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 40
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:12:15 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{daa620da-1ce4-4f65-9c0a-1da5cd48d796}","content":"df","type":"msg","time":"1410505935"}]} 
+2014/09/12 15:12:15 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:10:28 GMT] Content-Type:[application/json]] 0xc08206c580 -1 [chunked] false map[] 0xc082108ea0 <nil>} 
+2014/09/12 15:12:21 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[MESSAGE-ID:{5321f223-19f0-4546-a562-a6a725a6442a} EVENT:msg TO:sip:19@dg.uu.com DATE:1410505882 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:41 CSEQ:1 MESSAGE SOURCE:936201832302] fdfddf} 
+2014/09/12 15:12:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:10:34 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08200d940 -1 [chunked] false map[] 0xc082025ba0 <nil>} 
+2014/09/12 15:12:21 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:12:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:11:51 GMT]] 0xc08200db80 -1 [chunked] false map[] 0xc08207a1a0 <nil>} 
+2014/09/12 15:12:21 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[FROM:sip:19@dg.uu.com CALL-ID:41 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:6 DATE:1410505882 SOURCE:936201832302 MESSAGE-ID:{5321f223-19f0-4546-a562-a6a725a6442a} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539] fdfddf} 
+2014/09/12 15:12:21 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CALL-ID: 41
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 6
+DATE: 1410505882
+FROM: sip:19@dg.uu.com
+MESSAGE-ID: {5321f223-19f0-4546-a562-a6a725a6442a}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+
+fdfddf 
+2014/09/12 15:12:21 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 41
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:12:21 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[DATE:1410505882 FROM:sip:19@dg.uu.com CALL-ID:41 CSEQ:1 MESSAGE EVENT:msg CONTENT-LENGTH:6 TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 SOURCE:936201832302 MESSAGE-ID:{5321f223-19f0-4546-a562-a6a725a6442a}] fdfddf} 
+2014/09/12 15:12:21 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+CONTENT-LENGTH: 6
+DATE: 1410505882
+FROM: sip:19@dg.uu.com
+CALL-ID: 41
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+SOURCE: 936201832302
+MESSAGE-ID: {5321f223-19f0-4546-a562-a6a725a6442a}
+
+fdfddf 
+2014/09/12 15:12:21 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 41
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:12:21 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{5321f223-19f0-4546-a562-a6a725a6442a}","content":"fdfddf","type":"msg","time":"1410505941"}]} 
+2014/09/12 15:12:21 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:10:34 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc0821404c0 -1 [chunked] false map[] 0xc08207a820 <nil>} 
+2014/09/12 15:15:06 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 2 map[EVENT:msg TO:sip:19@dg.uu.com DATE:1410506047 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:44 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{349dba8e-f7e4-4cca-8c1c-a47ec83bef8d}] fg} 
+2014/09/12 15:15:06 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:13:19 GMT] Content-Type:[application/json]] 0xc082140180 -1 [chunked] false map[] 0xc082024340 <nil>} 
+2014/09/12 15:15:06 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:15:06 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:14:36 GMT]] 0xc0821404c0 -1 [chunked] false map[] 0xc0821081a0 <nil>} 
+2014/09/12 15:15:06 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{349dba8e-f7e4-4cca-8c1c-a47ec83bef8d} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 EVENT:msg DATE:1410506047 FROM:sip:19@dg.uu.com CALL-ID:44 CSEQ:1 MESSAGE CONTENT-LENGTH:2] fg} 
+2014/09/12 15:15:06 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {349dba8e-f7e4-4cca-8c1c-a47ec83bef8d}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+EVENT: msg
+DATE: 1410506047
+FROM: sip:19@dg.uu.com
+CALL-ID: 44
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+
+fg 
+2014/09/12 15:15:06 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 44
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:15:06 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 SOURCE:936201832302 MESSAGE-ID:{349dba8e-f7e4-4cca-8c1c-a47ec83bef8d} FROM:sip:19@dg.uu.com CALL-ID:44 CSEQ:1 MESSAGE CONTENT-LENGTH:2 EVENT:msg DATE:1410506047] fg} 
+2014/09/12 15:15:06 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 936201832302
+MESSAGE-ID: {349dba8e-f7e4-4cca-8c1c-a47ec83bef8d}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 44
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 2
+EVENT: msg
+DATE: 1410506047
+FROM: sip:19@dg.uu.com
+
+fg 
+2014/09/12 15:15:06 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 44
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:15:06 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{349dba8e-f7e4-4cca-8c1c-a47ec83bef8d}","content":"fg","type":"msg","time":"1410506106"}]} 
+2014/09/12 15:15:06 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:13:19 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08206c440 -1 [chunked] false map[] 0xc082109380 <nil>} 
+2014/09/12 15:16:00 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[EVENT:msg TO:sip:19@dg.uu.com DATE:1410506101 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:46 CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{54944acf-f227-42c2-982a-055880a43f72}] 333} 
+2014/09/12 15:16:00 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:14:13 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08200d5c0 -1 [chunked] false map[] 0xc082025790 <nil>} 
+2014/09/12 15:16:00 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:16:00 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:15:29 GMT]] 0xc0821408c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 15:16:00 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE EVENT:msg DATE:1410506101 FROM:sip:19@dg.uu.com CONTENT-LENGTH:3 CALL-ID:46 MESSAGE-ID:{54944acf-f227-42c2-982a-055880a43f72} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302] 333} 
+2014/09/12 15:16:00 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CONTENT-LENGTH: 3
+CALL-ID: 46
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410506101
+FROM: sip:19@dg.uu.com
+SOURCE: 936201832302
+MESSAGE-ID: {54944acf-f227-42c2-982a-055880a43f72}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+
+333 
+2014/09/12 15:16:00 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 46
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:00 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CALL-ID:46 CSEQ:1 MESSAGE EVENT:msg DATE:1410506101 FROM:sip:19@dg.uu.com CONTENT-LENGTH:3 SOURCE:936201832302 MESSAGE-ID:{54944acf-f227-42c2-982a-055880a43f72} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327] 333} 
+2014/09/12 15:16:00 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410506101
+FROM: sip:19@dg.uu.com
+CONTENT-LENGTH: 3
+CALL-ID: 46
+MESSAGE-ID: {54944acf-f227-42c2-982a-055880a43f72}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+SOURCE: 936201832302
+
+333 
+2014/09/12 15:16:00 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 46
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:00 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{54944acf-f227-42c2-982a-055880a43f72}","content":"333","type":"msg","time":"1410506160"}]} 
+2014/09/12 15:16:00 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:14:13 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc08206c6c0 -1 [chunked] false map[] 0xc0821096c0 <nil>} 
+2014/09/12 15:16:18 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{40aa8b2d-f48f-4c48-bf64-43f3aabc99da} EVENT:msg TO:sip:19@dg.uu.com DATE:1410506118 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:22] 222222} 
+2014/09/12 15:16:18 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:14:30 GMT]] 0xc082140c00 -1 [chunked] false map[] 0xc082025ad0 <nil>} 
+2014/09/12 15:16:18 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:16:18 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:15:47 GMT] Server:[Microsoft-HTTPAPI/1.0]] 0xc08206c980 -1 [chunked] false map[] 0xc082109790 <nil>} 
+2014/09/12 15:16:18 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{40aa8b2d-f48f-4c48-bf64-43f3aabc99da} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 CALL-ID:22 CSEQ:1 MESSAGE CONTENT-LENGTH:6 EVENT:msg DATE:1410506118 FROM:sip:19@dg.uu.com] 222222} 
+2014/09/12 15:16:18 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {40aa8b2d-f48f-4c48-bf64-43f3aabc99da}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+EVENT: msg
+DATE: 1410506118
+FROM: sip:19@dg.uu.com
+CALL-ID: 22
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 6
+
+222222 
+2014/09/12 15:16:18 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 22
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:18 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{40aa8b2d-f48f-4c48-bf64-43f3aabc99da} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702 CONTENT-LENGTH:6 EVENT:msg DATE:1410506118 FROM:sip:19@dg.uu.com CALL-ID:22 CSEQ:1 MESSAGE] 222222} 
+2014/09/12 15:16:18 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 225126862702
+MESSAGE-ID: {40aa8b2d-f48f-4c48-bf64-43f3aabc99da}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+FROM: sip:19@dg.uu.com
+CALL-ID: 22
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 6
+EVENT: msg
+DATE: 1410506118
+
+222222 
+2014/09/12 15:16:18 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 22
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:18 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{40aa8b2d-f48f-4c48-bf64-43f3aabc99da}","content":"222222","type":"msg","time":"1410506178"}]} 
+2014/09/12 15:16:18 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:14:30 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08206ccc0 -1 [chunked] false map[] 0xc08207ad00 <nil>} 
+2014/09/12 15:16:50 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[EVENT:msg TO:sip:20@dg.uu.com DATE:1410506150 FROM:<sip:890863898478@uu.com>;epid=uu123pc020213193517;userid=890863898478;sessionid=293d4cbe-bc61-4e56-82ed-fc1d883a7cc2 CALL-ID:4 CSEQ:1 MESSAGE SOURCE:890863898478 MESSAGE-ID:{b0c8bb90-1952-4768-ab26-2672d5a98c7a}] 123} 
+2014/09/12 15:16:50 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[992] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:02 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08200d5c0 -1 [chunked] false map[] 0xc082024340 <nil>} 
+2014/09/12 15:16:50 [I] web req is  [625006825326,633671993123,890863898478] 
+2014/09/12 15:16:50 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:16:19 GMT]] 0xc0821401c0 -1 [chunked] false map[] 0xc08207a0d0 <nil>} 
+2014/09/12 15:16:50 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:890863898478 MESSAGE-ID:{b0c8bb90-1952-4768-ab26-2672d5a98c7a} TO:<sip:625006825326@dg.uu.com>;epid=uu1234pc020214154650 CALL-ID:4 CSEQ:1 MESSAGE CONTENT-LENGTH:3 EVENT:msg DATE:1410506150 FROM:sip:20@dg.uu.com] 123} 
+2014/09/12 15:16:50 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 890863898478
+MESSAGE-ID: {b0c8bb90-1952-4768-ab26-2672d5a98c7a}
+TO: <sip:625006825326@dg.uu.com>;epid=uu1234pc020214154650
+EVENT: msg
+DATE: 1410506150
+FROM: sip:20@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+
+123 
+2014/09/12 15:16:50 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:20@dg.uu.com
+TO: <sip:625006825326@dg.uu.com>;epid=uu1234pc020214154650
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:50 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:633671993123@dg.uu.com>;epid=uu123456pc020212471532 SOURCE:890863898478 MESSAGE-ID:{b0c8bb90-1952-4768-ab26-2672d5a98c7a} FROM:sip:20@dg.uu.com CALL-ID:4 CSEQ:1 MESSAGE CONTENT-LENGTH:3 EVENT:msg DATE:1410506150] 123} 
+2014/09/12 15:16:50 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 890863898478
+MESSAGE-ID: {b0c8bb90-1952-4768-ab26-2672d5a98c7a}
+TO: <sip:633671993123@dg.uu.com>;epid=uu123456pc020212471532
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+EVENT: msg
+DATE: 1410506150
+FROM: sip:20@dg.uu.com
+CALL-ID: 4
+
+123 
+2014/09/12 15:16:50 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:20@dg.uu.com
+TO: <sip:633671993123@dg.uu.com>;epid=uu123456pc020212471532
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:50 [I] web req is  {"dg_id":20,"online_users":[625006825326,633671993123,890863898478],"messages":[{"sender_id":890863898478,"msg_id":"{b0c8bb90-1952-4768-ab26-2672d5a98c7a}","content":"123","type":"msg","time":"1410506210"}]} 
+2014/09/12 15:16:50 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:15:02 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx]] 0xc08200d940 -1 [chunked] false map[] 0xc082109450 <nil>} 
+2014/09/12 15:16:55 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[SOURCE:633671993123 MESSAGE-ID:{581e5593-2b5d-44c1-8884-316bc4af8cd3} EVENT:msg TO:sip:20@dg.uu.com DATE:1410506156 FROM:<sip:633671993123@uu.com>;epid=uu123456pc020212471532;userid=633671993123;sessionid=2793e978-0090-4b95-93a3-c8f8fe96543d CALL-ID:4 CSEQ:1 MESSAGE] 789} 
+2014/09/12 15:16:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[992] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:08 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08206c480 -1 [chunked] false map[] 0xc08207a1a0 <nil>} 
+2014/09/12 15:16:55 [I] web req is  [625006825326,633671993123,890863898478] 
+2014/09/12 15:16:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:16:25 GMT]] 0xc08200db80 -1 [chunked] false map[] 0xc082025790 <nil>} 
+2014/09/12 15:16:55 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE CONTENT-LENGTH:3 EVENT:msg DATE:1410506156 FROM:sip:20@dg.uu.com CALL-ID:4 TO:<sip:625006825326@dg.uu.com>;epid=uu1234pc020214154650 SOURCE:633671993123 MESSAGE-ID:{581e5593-2b5d-44c1-8884-316bc4af8cd3}] 789} 
+2014/09/12 15:16:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410506156
+FROM: sip:20@dg.uu.com
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+TO: <sip:625006825326@dg.uu.com>;epid=uu1234pc020214154650
+SOURCE: 633671993123
+MESSAGE-ID: {581e5593-2b5d-44c1-8884-316bc4af8cd3}
+
+789 
+2014/09/12 15:16:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:20@dg.uu.com
+TO: <sip:625006825326@dg.uu.com>;epid=uu1234pc020214154650
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:55 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410506156 FROM:sip:20@dg.uu.com CALL-ID:4 CSEQ:1 MESSAGE CONTENT-LENGTH:3 TO:<sip:890863898478@dg.uu.com>;epid=uu123pc020213193517 SOURCE:633671993123 MESSAGE-ID:{581e5593-2b5d-44c1-8884-316bc4af8cd3}] 789} 
+2014/09/12 15:16:55 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 3
+EVENT: msg
+DATE: 1410506156
+FROM: sip:20@dg.uu.com
+CALL-ID: 4
+TO: <sip:890863898478@dg.uu.com>;epid=uu123pc020213193517
+SOURCE: 633671993123
+MESSAGE-ID: {581e5593-2b5d-44c1-8884-316bc4af8cd3}
+
+789 
+2014/09/12 15:16:55 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:20@dg.uu.com
+TO: <sip:890863898478@dg.uu.com>;epid=uu123pc020213193517
+CALL-ID: 4
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:55 [I] web req is  {"dg_id":20,"online_users":[625006825326,890863898478,633671993123],"messages":[{"sender_id":633671993123,"msg_id":"{581e5593-2b5d-44c1-8884-316bc4af8cd3}","content":"789","type":"msg","time":"1410506215"}]} 
+2014/09/12 15:16:55 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:08 GMT] Content-Type:[application/json]] 0xc08200dd80 -1 [chunked] false map[] 0xc082025c70 <nil>} 
+2014/09/12 15:16:59 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 12 map[MESSAGE-ID:{17872861-66b0-4a7b-ae58-2ad9b670d189} EVENT:msg TO:sip:19@dg.uu.com DATE:1410506159 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:24 CSEQ:1 MESSAGE SOURCE:225126862702] gergergreger} 
+2014/09/12 15:16:59 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:11 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0]] 0xc082140640 -1 [chunked] false map[] 0xc082025d40 <nil>} 
+2014/09/12 15:16:59 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:16:59 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:16:28 GMT]] 0xc08200de80 -1 [chunked] false map[] 0xc082109520 <nil>} 
+2014/09/12 15:16:59 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{17872861-66b0-4a7b-ae58-2ad9b670d189} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 CONTENT-LENGTH:12 EVENT:msg DATE:1410506159 FROM:sip:19@dg.uu.com CALL-ID:24 CSEQ:1 MESSAGE] gergergreger} 
+2014/09/12 15:16:59 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {17872861-66b0-4a7b-ae58-2ad9b670d189}
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+CONTENT-LENGTH: 12
+EVENT: msg
+DATE: 1410506159
+FROM: sip:19@dg.uu.com
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+
+gergergreger 
+2014/09/12 15:16:59 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:59 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{17872861-66b0-4a7b-ae58-2ad9b670d189} TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702 EVENT:msg DATE:1410506159 FROM:sip:19@dg.uu.com CALL-ID:24 CSEQ:1 MESSAGE CONTENT-LENGTH:12] gergergreger} 
+2014/09/12 15:16:59 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+MESSAGE-ID: {17872861-66b0-4a7b-ae58-2ad9b670d189}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+SOURCE: 225126862702
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 12
+EVENT: msg
+DATE: 1410506159
+FROM: sip:19@dg.uu.com
+
+gergergreger 
+2014/09/12 15:16:59 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 24
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:16:59 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{17872861-66b0-4a7b-ae58-2ad9b670d189}","content":"gergergreger","type":"msg","time":"1410506219"}]} 
+2014/09/12 15:16:59 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:11 GMT]] 0xc0820f20c0 -1 [chunked] false map[] 0xc082109930 <nil>} 
+2014/09/12 15:17:07 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 6 map[CSEQ:1 MESSAGE SOURCE:934593253230 MESSAGE-ID:{f1d61a72-3587-4c7b-b9b1-563644da4d04} EVENT:msg TO:sip:19@dg.uu.com DATE:1410506167 FROM:<sip:934593253230@uu.com>;epid=zzz123pc010811015539;userid=934593253230;sessionid=52ff7494-7de8-4e9e-b36c-5c4caf61f7ae CALL-ID:26] gggggg} 
+2014/09/12 15:17:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:19 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08206cbc0 -1 [chunked] false map[] 0xc082109a00 <nil>} 
+2014/09/12 15:17:07 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:17:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:16:36 GMT]] 0xc0820f21c0 -1 [chunked] false map[] 0xc082025e10 <nil>} 
+2014/09/12 15:17:07 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:934593253230 MESSAGE-ID:{f1d61a72-3587-4c7b-b9b1-563644da4d04} CSEQ:1 MESSAGE EVENT:msg DATE:1410506167 CONTENT-LENGTH:6 FROM:sip:19@dg.uu.com CALL-ID:26] gggggg} 
+2014/09/12 15:17:07 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 934593253230
+MESSAGE-ID: {f1d61a72-3587-4c7b-b9b1-563644da4d04}
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+DATE: 1410506167
+CONTENT-LENGTH: 6
+FROM: sip:19@dg.uu.com
+CALL-ID: 26
+CSEQ: 1 MESSAGE
+EVENT: msg
+
+gggggg 
+2014/09/12 15:17:07 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 26
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:17:07 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{f1d61a72-3587-4c7b-b9b1-563644da4d04} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 SOURCE:934593253230 CALL-ID:26 CSEQ:1 MESSAGE EVENT:msg DATE:1410506167 CONTENT-LENGTH:6 FROM:sip:19@dg.uu.com] gggggg} 
+2014/09/12 15:17:07 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+SOURCE: 934593253230
+MESSAGE-ID: {f1d61a72-3587-4c7b-b9b1-563644da4d04}
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CONTENT-LENGTH: 6
+FROM: sip:19@dg.uu.com
+CALL-ID: 26
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410506167
+
+gggggg 
+2014/09/12 15:17:07 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 26
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:17:07 [I] web req is  {"dg_id":19,"online_users":[936201832302,225126862702,934593253230],"messages":[{"sender_id":934593253230,"msg_id":"{f1d61a72-3587-4c7b-b9b1-563644da4d04}","content":"gggggg","type":"msg","time":"1410506227"}]} 
+2014/09/12 15:17:07 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:15:19 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx]] 0xc082140b40 -1 [chunked] false map[] 0xc08207b1e0 <nil>} 
+2014/09/12 15:17:10 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 3 map[CSEQ:1 MESSAGE SOURCE:936201832302 MESSAGE-ID:{daa53b51-4288-4611-ad1b-6e903c3f043e} EVENT:msg TO:sip:19@dg.uu.com DATE:1410506170 FROM:<sip:936201832302@uu.com>;epid=qaz123pc020211386508;userid=936201832302;sessionid=132b6f0d-20d8-4299-bc66-2ba85f96d2da CALL-ID:47] ttt} 
+2014/09/12 15:17:10 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:23 GMT]] 0xc0820f2640 -1 [chunked] false map[] 0xc08207b2b0 <nil>} 
+2014/09/12 15:17:10 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:17:10 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0] Date:[Fri, 12 Sep 2014 07:16:39 GMT]] 0xc082140c40 -1 [chunked] false map[] 0xc08207b380 <nil>} 
+2014/09/12 15:17:10 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[MESSAGE-ID:{daa53b51-4288-4611-ad1b-6e903c3f043e} TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:936201832302 CALL-ID:47 CSEQ:1 MESSAGE EVENT:msg DATE:1410506170 CONTENT-LENGTH:3 FROM:sip:19@dg.uu.com] ttt} 
+2014/09/12 15:17:10 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 936201832302
+MESSAGE-ID: {daa53b51-4288-4611-ad1b-6e903c3f043e}
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410506170
+CONTENT-LENGTH: 3
+FROM: sip:19@dg.uu.com
+CALL-ID: 47
+
+ttt 
+2014/09/12 15:17:10 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 47
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:17:10 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[SOURCE:936201832302 MESSAGE-ID:{daa53b51-4288-4611-ad1b-6e903c3f043e} TO:<sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327 CONTENT-LENGTH:3 FROM:sip:19@dg.uu.com CALL-ID:47 CSEQ:1 MESSAGE EVENT:msg DATE:1410506170] ttt} 
+2014/09/12 15:17:10 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+SOURCE: 936201832302
+MESSAGE-ID: {daa53b51-4288-4611-ad1b-6e903c3f043e}
+CSEQ: 1 MESSAGE
+EVENT: msg
+DATE: 1410506170
+CONTENT-LENGTH: 3
+FROM: sip:19@dg.uu.com
+CALL-ID: 47
+
+ttt 
+2014/09/12 15:17:10 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:225126862702@dg.uu.com>;epid=uucycw2pc020248378327
+CALL-ID: 47
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:17:10 [I] web req is  {"dg_id":19,"online_users":[934593253230,225126862702,936201832302],"messages":[{"sender_id":936201832302,"msg_id":"{daa53b51-4288-4611-ad1b-6e903c3f043e}","content":"ttt","type":"msg","time":"1410506230"}]} 
+2014/09/12 15:17:10 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Connection:[keep-alive] X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:23 GMT] Content-Type:[application/json]] 0xc08206ce40 -1 [chunked] false map[] 0xc08207b790 <nil>} 
+2014/09/12 15:17:14 [I] receive sip request
+ &{MESSAGE tcp://10.1.9.27:54321 7 map[EVENT:msg TO:sip:19@dg.uu.com DATE:1410506174 FROM:<sip:225126862702@uu.com>;epid=uucycw2pc020248378327;userid=225126862702;sessionid=cfaaf796-0317-4930-970c-c74698f2cdb5 CALL-ID:25 CSEQ:1 MESSAGE SOURCE:225126862702 MESSAGE-ID:{aa5fb953-fd5c-4f0a-82d0-b2b3a2ed4e28}] gtgtgtg} 
+2014/09/12 15:17:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[X-Powered-By:[PHP/5.5.10] Uu-Response-Rc:[0] Uu-Content-Length:[1028] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:26 GMT] Content-Type:[application/json] Connection:[keep-alive]] 0xc08206cfc0 -1 [chunked] false map[] 0xc0821ba0d0 <nil>} 
+2014/09/12 15:17:14 [I] web req is  [934593253230,936201832302,225126862702] 
+2014/09/12 15:17:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Date:[Fri, 12 Sep 2014 07:16:43 GMT] Server:[Microsoft-HTTPAPI/1.0] Uu-Response-Rc:[0]] 0xc0820f29c0 -1 [chunked] false map[] 0xc0821ba1a0 <nil>} 
+2014/09/12 15:17:14 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[EVENT:msg DATE:1410506174 FROM:sip:19@dg.uu.com CALL-ID:25 CSEQ:1 MESSAGE CONTENT-LENGTH:7 TO:<sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539 SOURCE:225126862702 MESSAGE-ID:{aa5fb953-fd5c-4f0a-82d0-b2b3a2ed4e28}] gtgtgtg} 
+2014/09/12 15:17:14 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 7
+EVENT: msg
+DATE: 1410506174
+FROM: sip:19@dg.uu.com
+CALL-ID: 25
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+SOURCE: 225126862702
+MESSAGE-ID: {aa5fb953-fd5c-4f0a-82d0-b2b3a2ed4e28}
+
+gtgtgtg 
+2014/09/12 15:17:14 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:934593253230@dg.uu.com>;epid=zzz123pc010811015539
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:17:14 [I] newreq is  &{MESSAGE tcp:10.1.9.101:5068 0 map[CSEQ:1 MESSAGE CONTENT-LENGTH:7 EVENT:msg DATE:1410506174 FROM:sip:19@dg.uu.com CALL-ID:25 TO:<sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508 SOURCE:225126862702 MESSAGE-ID:{aa5fb953-fd5c-4f0a-82d0-b2b3a2ed4e28}] gtgtgtg} 
+2014/09/12 15:17:14 [I] client send message  MESSAGE tcp:10.1.9.101:5068 SIP/2.0
+EVENT: msg
+DATE: 1410506174
+FROM: sip:19@dg.uu.com
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+CONTENT-LENGTH: 7
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+SOURCE: 225126862702
+MESSAGE-ID: {aa5fb953-fd5c-4f0a-82d0-b2b3a2ed4e28}
+
+gtgtgtg 
+2014/09/12 15:17:14 [I] sip client receive  SIP/2.0 200 OK
+FROM: sip:19@dg.uu.com
+TO: <sip:936201832302@dg.uu.com>;epid=qaz123pc020211386508
+CALL-ID: 25
+CSEQ: 1 MESSAGE
+
+ 
+2014/09/12 15:17:14 [I] web req is  {"dg_id":19,"online_users":[934593253230,936201832302,225126862702],"messages":[{"sender_id":225126862702,"msg_id":"{aa5fb953-fd5c-4f0a-82d0-b2b3a2ed4e28}","content":"gtgtgtg","type":"msg","time":"1410506234"}]} 
+2014/09/12 15:17:14 [I] web response is  &{200 OK 200 HTTP/1.1 1 1 map[Uu-Response-Rc:[0] Uu-Content-Length:[74] Server:[nginx] Date:[Fri, 12 Sep 2014 07:15:26 GMT] Content-Type:[application/json] Connection:[keep-alive] X-Powered-By:[PHP/5.5.10]] 0xc08206d500 -1 [chunked] false map[] 0xc0821ba340 <nil>} 
+2014/09/12 15:20:49 [I] Connection from:  10.1.9.101:52145 

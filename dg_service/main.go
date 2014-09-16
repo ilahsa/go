@@ -10,20 +10,20 @@ var (
 	Config_PRS_URL  string
 )
 
-func main() {
+func init() {
 	////// 初始化日志
 	beego.SetLogger("file", `{"filename":"go_dg.log"}`)
 	iniconf, err := config.NewConfig("ini", "config.conf")
 	if err != nil {
 		beego.Error("init config error", err)
 		beego.BeeLogger.Flush()
-		return
+		panic("init failed")
 	}
 	Config_Data_URL = iniconf.String("data_url")
 	Config_PRS_URL = iniconf.String("prs_url")
 
-	//fmt.Println(Config_Data_URL, Config_PRS_URL)
-
+}
+func main() {
 	parser := &SipParser{}
 
 	s := &SipServer{parser}
